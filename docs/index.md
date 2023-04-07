@@ -7,7 +7,7 @@ hero:
   text: "База знаний лучшего хостинга"
   tagline: Википедия содержащая в себе всё что нужно для управления хостингом Bisquit.Host
   image:
-    src: /assets/512.webp
+    src: /512.webp
     alt: Bisquit.Host
   actions:
     - theme: brand

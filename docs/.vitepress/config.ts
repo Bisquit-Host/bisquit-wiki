@@ -6,7 +6,7 @@ export default defineConfig({
   title: "Bisquit Wiki",
   description: "База знаний лучшего хостинга Bisquit.Host",
   themeConfig: {
-    logo: '/assets/64.webp',
+    logo: '/64.webp',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       // { text: 'Home', link: '/' },

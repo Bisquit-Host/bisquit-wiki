@@ -28,12 +28,26 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'Услуги',
+        collapsed: false,
+        items: [
+          { text: 'Выбор тарифа Майнкрафт', link: '/choose-plan' },
+        ]
+      },
+      {
         text: 'Настройка Сервера',
         collapsed: false,
         items: [
           { text: 'Настройка server.properties', link: '/server-properties' },
         ]
-      }
+      },
+      {
+        text: 'Cloudflare',
+        collapsed: false,
+        items: [
+          { text: 'Подключение домена', link: '/connect-domain' },
+        ]
+      },
     ],
 
     socialLinks: [

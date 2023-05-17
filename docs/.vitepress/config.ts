@@ -28,10 +28,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Жирный хрыч',
+        text: 'Настройка Сервера',
         collapsed: false,
         items: [
-          { text: 'PlasmoVoice', link: '/plasmo-voice' },
+          { text: 'Настройка server.properties', link: '/server-properties' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }

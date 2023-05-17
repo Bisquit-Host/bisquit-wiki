@@ -32,7 +32,6 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Настройка server.properties', link: '/server-properties' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],

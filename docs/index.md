@@ -12,17 +12,17 @@ hero:
   actions:
     - theme: brand
       text: Начать
-      link: /plasmo-voice
+      link: /server-properties
     - theme: alt
       text: Для продвитутых
-      link: /api-examples
+      link: /server-properties
 
 features:
   - title: Понятность
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Наша википедия написана максимально понятно, чтобы вы могли тратить меньше времени на изучение материала и больше на разработку сервера
   - title: Актуальность
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Только актуальная информация для самых последних версий майнкрафта
+  - title: Обьёмность
+    details: Здесь собрана вся нужная информация которая может вам понадобиться при использовании нашего хостинга
 ---
 

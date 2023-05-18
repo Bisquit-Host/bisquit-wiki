@@ -31,7 +31,7 @@ export default defineConfig({
         text: 'Услуги',
         collapsed: false,
         items: [
-          { text: 'Выбор тарифа Майнкрафт', link: '/choose-plan' },
+          { text: 'Выбор тарифа Minecraft', link: '/choose-plan' },
         ]
       },
       {
@@ -45,7 +45,7 @@ export default defineConfig({
         text: 'Cloudflare',
         collapsed: false,
         items: [
-          { text: 'Подключение домена', link: '/connect-domain' },
+          { text: 'Привязка домена', link: '/connect-domain' },
         ]
       },
     ],

@@ -4276,7 +4276,7 @@ function applyOptions(instance) {
     // public API
     expose,
     inheritAttrs,
-    // public
+    // assets
     components,
     directives,
     filters
@@ -4566,7 +4566,7 @@ var internalOptionMergeStrats = {
   deactivated: mergeAsArray,
   errorCaptured: mergeAsArray,
   serverPrefetch: mergeAsArray,
-  // public
+  // assets
   components: mergeObjectOptions,
   directives: mergeObjectOptions,
   // watch
@@ -7257,7 +7257,7 @@ function createComponentInstance(vnode, parent, suspense) {
     provides: parent ? parent.provides : Object.create(appContext.provides),
     accessCache: null,
     renderCache: [],
-    // local resolved public
+    // local resolved assets
     components: null,
     directives: null,
     // resolved props and emits options
@@ -8276,7 +8276,7 @@ var defineSSRCustomElement = (options) => {
 };
 var BaseClass = typeof HTMLElement !== "undefined" ? HTMLElement : class {
 };
-var VueElement = class extends BaseClass {
+var VueElement = class _VueElement extends BaseClass {
   constructor(_def, _props = {}, hydrate2) {
     super();
     this._def = _def;
@@ -8443,7 +8443,7 @@ var VueElement = class extends BaseClass {
         };
         let parent = this;
         while (parent = parent && (parent.parentNode || parent.host)) {
-          if (parent instanceof VueElement) {
+          if (parent instanceof _VueElement) {
             instance.parent = parent._instance;
             instance.provides = parent._instance.provides;
             break;

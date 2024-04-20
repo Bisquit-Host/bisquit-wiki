@@ -45,6 +45,7 @@ export default defineConfig({
         text: 'Cloudflare',
         collapsed: false,
         items: [
+		  { text: 'Перенос домена', link: '/transfer-domain' },
           { text: 'Привязка домена', link: '/connect-domain' },
         ]
       },

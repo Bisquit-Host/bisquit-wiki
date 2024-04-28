@@ -49,6 +49,13 @@ export default defineConfig({
           { text: 'Привязка домена', link: '/connect-domain' },
         ]
       },
+      {
+        text: 'Endera',
+        collapsed: false,
+        items: [
+		  { text: 'Ebank', link: '/transfer-domain' },
+        ]
+	  },
     ],
 
     socialLinks: [

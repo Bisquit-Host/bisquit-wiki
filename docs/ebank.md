@@ -4,7 +4,18 @@ outline: deep
 
 # EnderaBank
 ![eba](/eba.png)
+
 Функциональный и удобный плагин на банковскую систему с использованием руды
+
+## Покупка
+Цена: 2500 руб.
+
+Контакты:
+- Discord: sculmix
+- https://t.me/YolkinVadim
+- Discord: turbovadim
+
+Обращайтесь к Sculmix если в сети.
 
 ### Команды плагина EnderaBank:​
 - **/bank** - открыть меню банка

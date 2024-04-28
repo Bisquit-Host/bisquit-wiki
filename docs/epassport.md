@@ -4,7 +4,19 @@ outline: deep
 
 # EnderaPassport
 ![epa](/epa.png)
+
 Простой и удобный плагин на систему паспортов для RP-проектов
+
+## Покупка
+Цена: 349 руб. 
+
+Контакты:
+- Discord: sculmix
+- https://t.me/YolkinVadim
+- Discord: turbovadim
+
+Обращайтесь к Sculmix если в сети.
+
 
 ### Команды плагина EnderaPassport:​
 - **/passport** - просмотр своего паспорта

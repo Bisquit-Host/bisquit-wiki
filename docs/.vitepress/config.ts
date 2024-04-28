@@ -53,7 +53,8 @@ export default defineConfig({
         text: 'Endera',
         collapsed: false,
         items: [
-		  { text: 'Ebank', link: '/transfer-domain' },
+		  { text: 'EnderaBank', link: '/ebank' },
+		  { text: 'EnderaPassport', link: '/epassport' },
         ]
 	  },
     ],

@@ -3,7 +3,7 @@ outline: deep
 ---
 
 # EnderaPassport
-![epa](/epa.png)
+![epa](/epa.webp)
 
 Простой и удобный плагин на систему паспортов для RP-проектов
 

@@ -45,6 +45,13 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Ошибки',
+        collapsed: false,
+        items: [
+		  { text: 'Ошибка "getsockopt"', link: '/getsockopt' },
+        ]
+      },
+      {
         text: 'Cloudflare',
         collapsed: false,
         items: [

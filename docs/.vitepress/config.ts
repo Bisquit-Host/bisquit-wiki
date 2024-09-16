@@ -34,6 +34,7 @@ export default defineConfig({
         text: 'Услуги',
         collapsed: false,
         items: [
+		{ text: 'ЧАВО', link: '/faq' },
           { text: 'Выбор тарифа Minecraft', link: '/choose-plan' },
         ]
       },

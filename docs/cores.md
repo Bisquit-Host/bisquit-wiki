@@ -38,5 +38,6 @@
 авторы плагинов не оказывают поддержки тем, кто запускает их плагины на гибридных серверах.
 :::
 
-- [CatServer](https://catmc.org/) - Практически то же самое, что Mohist, но имеет поддержку ограниченного количества версий.
+- [Ketting](https://github.com/kettingpowered/Ketting-1-20-x) - Основан на Forge, но также поддерживает Bukkit, Spigot и Paper плагины.
+- [CatServer](https://catmc.org/) - Практически то же самое, что Ketting, но имеет поддержку ограниченного количества версий.
 - [Arclight](https://github.com/IzzelAliz/Arclight) - Активно развивающееся ядро с поддержкой Forge, NeoForge, Fabric модов и Bukkit плагинов.

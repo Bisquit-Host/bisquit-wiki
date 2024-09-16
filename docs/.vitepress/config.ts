@@ -41,6 +41,8 @@ export default defineConfig({
         text: 'Настройка Сервера',
         collapsed: false,
         items: [
+		  { text: 'Ядра', link: '/cores' },
+		  { text: 'Установка ядра', link: '/installcore' },
           { text: 'Настройка server.properties', link: '/server-properties' },
         ]
       },
@@ -49,6 +51,8 @@ export default defineConfig({
         collapsed: false,
         items: [
 		  { text: 'Ошибка "getsockopt"', link: '/getsockopt' },
+		  { text: 'Ошибка "Не удалось проверить имя пользователя"', link: '/onlinemode' },
+		  { text: 'Ошибка "Открытый ключ профиля отсутствует."', link: '/enforcesecure' },
         ]
       },
       {
@@ -57,6 +61,7 @@ export default defineConfig({
         items: [
 		  { text: 'Перенос домена', link: '/transfer-domain' },
           { text: 'Привязка домена', link: '/connect-domain' },
+		  { text: 'Подключение онлайн карты к домену', link: '/originrules' },
         ]
       },
       {

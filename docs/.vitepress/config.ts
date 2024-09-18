@@ -44,7 +44,6 @@ export default defineConfig({
         items: [
 		  { text: 'Ядра', link: '/cores' },
 		  { text: 'Установка ядра', link: '/installcore' },
-          { text: 'Настройка server.properties', link: '/server-properties' },
         ]
       },
       {

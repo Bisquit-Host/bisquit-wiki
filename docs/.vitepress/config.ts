@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [['link', { rel: 'icon', href: '/64.webp' }]],
   cleanUrls: true,
   title: "Bisquit Wiki",
   description: "База знаний лучшего хостинга Bisquit.Host",
@@ -9,6 +10,7 @@ export default defineConfig({
     outline: {
       label: "На этой странице",
     },
+	
     logo: '/64.webp',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -59,6 +61,7 @@ export default defineConfig({
         text: 'Cloudflare',
         collapsed: false,
         items: [
+		  { text: 'Отключение ECH', link: '/ech' },
 		  { text: 'Перенос домена', link: '/transfer-domain' },
           { text: 'Привязка домена', link: '/connect-domain' },
 		  { text: 'Подключение онлайн карты к домену', link: '/originrules' },

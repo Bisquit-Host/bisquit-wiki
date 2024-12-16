@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import lightbox from "vitepress-plugin-lightbox"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -30,6 +31,10 @@ export default defineConfig({
         ]
       }
     ],
+	docFooter: {
+      prev: 'Предыдущая страница',
+      next: 'Следующая страница'
+    },
 
     sidebar: [
       {
@@ -82,5 +87,11 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Bisquit-Host' }
     ]
-  }
+  },
+  
+    markdown: {
+    config: (md) => {
+      md.use(lightbox, {});
+    },
+  },
 })

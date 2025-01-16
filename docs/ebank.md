@@ -12,12 +12,12 @@ outline: deep
 
 Контакты:
 - Discord: sculmix
-- https://t.me/YolkinVadim
 - Discord: turbovadim
+- [Telegram](https://t.me/YolkinVadim)
 
-Обращайтесь к Sculmix если в сети.
+Обращайтесь к Sculmix если в сети
 
-### Команды плагина EnderaBank:​
+### Команды:​
 - **/bank** - открыть меню
 - **/bank deposit** - пополнение карты
 - **/bank pay (Ник/Номер счёта)** - перевод другому игроку
@@ -28,7 +28,7 @@ outline: deep
 - **/bank unwarn (Номер штрафа)** - снять штраф
 - **/bank paywarn (Номер штрафа)** - оплатить штраф
 
-### Права плагина EnderaBank:​
+### Права:​
 - **enderabank.reload** - разрешает перезагружать конфиг плагина
 - **enderabank.newcard** - разрешение на создание новой карты
 - **enderabank.subuser** - разрешение на добавление совладельцев
@@ -37,7 +37,7 @@ outline: deep
 - **enderabank.payments** - разрешение на переводы
 - **enderabank.deposit** - разрешение на пополнение счёта через меню
 
-### Конфигурация плагина EnderaBank:​
+### Конфигурация:​
 ::: details Развернуть
 ```yml
 storage:
@@ -319,6 +319,9 @@ messages:
 
 ### Скриншоты:
 ![1](/1.png) ![2](/2.png)
+
 ![3](/3.png) ![4](/4.png)
+
 ![5](/5.png) ![6](/6.png)
+
 ![7](/7.png) ![8](/8.png)

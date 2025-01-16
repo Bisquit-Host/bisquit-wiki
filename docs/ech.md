@@ -18,7 +18,7 @@ sidebar: auto
    ```
    https://dns.google/resolve?name=[ВАШ_ДОМЕН]&type=HTTPS
    ```
-2. Если в результатах видно, что ECH активен, переходите к следующему шагу.
+2. Если в результатах видно, что ECH активен, переходите к следующему шагу
 
 ---
 
@@ -29,12 +29,12 @@ sidebar: auto
 ### Global API Key
 
 1. Перейдите на страницу Cloudflare: [https://dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens).
-2. Найдите раздел с вашим **Global API Key** и скопируйте ключ.
+2. Найдите раздел с вашим **Global API Key** и скопируйте ключ
 
 ### Zone ID
 
-1. Зайдите в панель управления вашим доменом в Cloudflare.
-2. Прокрутите страницу вниз и скопируйте значение **Zone ID**.
+1. Зайдите в панель управления вашим доменом в Cloudflare
+2. Прокрутите страницу вниз и скопируйте значение **Zone ID**
 
 ---
 
@@ -60,8 +60,8 @@ curl -X PATCH "https://api.cloudflare.com/client/v4/zones/{ID_ZONE}/settings/ech
    https://api.cloudflare.com/client/v4/zones/{ID_ZONE}/settings/ech
    ```
 2. В разделе **Headers** добавьте следующие поля:
-   - `X-Auth-Email`: ваш email-адрес Cloudflare.
-   - `X-Auth-Key`: ваш Global API Key.
+   - `X-Auth-Email`: ваш email-адрес Cloudflare
+   - `X-Auth-Key`: ваш Global API Key
    - `Content-Type`: `application/json`.
 3. В разделе **Body** выберите **raw** и введите следующий JSON:
    ```json

@@ -28,7 +28,7 @@
 - [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) - самый популярный modloader ввиду большого количества модов, но является не оптимизированным
 - [Fabric](https://fabricmc.net/use/server/) - modloader, который в последнее время набрал огромную популярность
   Имеет множество модов на оптимизацию и модов с разнообразными утилитами
-- [Quilt](https://quiltmc.org/en/install/server/) - появившийся недавно modloader на основе Fabric, поддерживающий также моды на Quilt.
+- [Quilt](https://quiltmc.org/en/install/server/) - появившийся недавно modloader на основе Fabric, поддерживающий также моды на Quilt
 - [NeoForge](https://neoforged.net/) - новый modloader основанный на Forge, без поддержки модов Forge
 
 ## Гибриды

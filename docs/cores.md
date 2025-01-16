@@ -3,6 +3,7 @@
 ## Ванильные ядра
 
 - [Vanilla](https://getbukkit.org/download/vanilla) - обыкновенное ванильное ядро
+
 - [CraftBukkit](https://getbukkit.org/download/craftbukkit) - одно из самых первых и самых старых ядер, поддерживающих Bukkit плагины. **АБСОЛЮТНО Не рекомендуется** к использованию из-за отсутствия оптимизации и поддержки современных плагинов
 - [Spigot](https://getbukkit.org/download/spigot) -  форк CraftBukkit, добавляющий на то время "хорошую оптимизацию" и прочие функции, которые настраиваются в файле `spigot.yml`. Также **не рекомендуется** к использованию
 - [Paper](https://papermc.io/software/paper) - форк Spigot, оптимизированное ядро с поддержкой Spigot/Bukkit/Paper плагинов.

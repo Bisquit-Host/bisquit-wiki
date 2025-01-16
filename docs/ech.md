@@ -34,7 +34,8 @@ sidebar: auto
 ### Zone ID
 
 1. Зайдите в панель управления вашим доменом в Cloudflare
-2. Прокрутите страницу вниз и скопируйте значение **Zone ID**
+2. 
+3. Прокрутите страницу вниз и скопируйте значение **Zone ID**
 
 ---
 
@@ -59,10 +60,12 @@ curl -X PATCH "https://api.cloudflare.com/client/v4/zones/{ID_ZONE}/settings/ech
    ```
    https://api.cloudflare.com/client/v4/zones/{ID_ZONE}/settings/ech
    ```
+
 2. В разделе **Headers** добавьте следующие поля:
    - `X-Auth-Email`: ваш email-адрес Cloudflare
    - `X-Auth-Key`: ваш Global API Key
-   - `Content-Type`: `application/json`.
+   - `Content-Type`: `application/json`
+
 3. В разделе **Body** выберите **raw** и введите следующий JSON:
    ```json
    {
@@ -77,8 +80,10 @@ curl -X PATCH "https://api.cloudflare.com/client/v4/zones/{ID_ZONE}/settings/ech
 
 Если вы используете платный тариф Cloudflare, отключить ECH можно через интерфейс панели управления:
 
-1. Перейдите в раздел **SSL/TLS**.
-2. Откройте вкладку **Edge Certificates**.
-3. Найдите настройку **Encrypted ClientHello (ECH)** и установите значение **Disabled**.
+1. Перейдите в раздел **SSL/TLS**
+
+2. Откройте вкладку **Edge Certificates**
+
+3. Найдите настройку **Encrypted ClientHello (ECH)** и установите значение **Disabled**
 
 ---

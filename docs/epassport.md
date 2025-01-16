@@ -12,8 +12,8 @@ outline: deep
 
 Контакты:
 - Discord: sculmix
-- https://t.me/YolkinVadim
 - Discord: turbovadim
+- [Telegram](https://t.me/YolkinVadim)
 
 Обращайтесь к Sculmix если в сети
 

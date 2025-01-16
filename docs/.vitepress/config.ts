@@ -49,6 +49,7 @@ export default defineConfig({
         text: 'Настройка Сервера',
         collapsed: false,
         items: [
+		  { text: 'server.properties', link: '/server-properties' },
 		  { text: 'Ядра', link: '/cores' },
 		  { text: 'Установка ядра', link: '/installcore' },
         ]

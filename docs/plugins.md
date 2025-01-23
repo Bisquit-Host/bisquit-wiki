@@ -4,7 +4,7 @@ import keks from '/.vitepress/theme/keks.vue'
 
 # Рекомендуемые плагины
 
-Здесь вы можете посмотреть список рекомендуемых плагинов в каждой категории для установки на сервер (бесплатных и платных)
+Здесь вы можете посмотреть список рекомендуемых плагинов в каждой категории для установки на сервер
 
 ## By Bisquit.Host
 
@@ -114,6 +114,35 @@ import keks from '/.vitepress/theme/keks.vue'
 ## Прочее
 
 <div class="flex">
+    <h3>LibertyBans</h3>
+    <a href="https://github.com/A248/LibertyBans/releases" target="_blank">
+        <img src="/modrinth.webp" class="sex">
+    </a>
+    <a href="https://www.spigotmc.org/resources/libertybans.81063" target="_blank">
+        <img src="/github.webp" class="sex">
+    </a>
+</div>
+<keks>
+    Лучший плагин на баны среди бесплатных. Является заменой AdvancedBans, а также может похвастаться хорошей стабильностью работы
+</keks>
+
+<div class="flex">
+    <h3>Chunky</h3>
+    <a href="https://modrinth.com/plugin/chunky" target="_blank">
+        <img src="/modrinth.webp" class="sex">
+    </a>
+    <a href="https://github.com/pop4959/Chunky" target="_blank">
+        <img src="/github.webp" class="sex">
+    </a>
+    <a href="https://www.spigotmc.org/resources/chunky.81534" target="_blank">
+        <img src="/spigot.webp" class="sex">
+    </a>
+</div>
+<keks>
+    Тот самый плагин для прогрузки чанков/территории (единственный адекватный)
+</keks>
+
+<div class="flex">
     <h3>SquareMap</h3>
     <a href="https://modrinth.com/plugin/squaremap" target="_blank">
         <img src="/modrinth.webp" class="sex">
@@ -170,19 +199,6 @@ import keks from '/.vitepress/theme/keks.vue'
     2. Мини-консоль | В определенном канале будут отображаться все логи из консоли (очень удобно, но не безопасно)<br>
     3. Кастомные команды, используя Minecraft плейсхолдеры<br>
     4. Можно связать ники с сервера с никами в Minecraft (только если включена привязка)<br>
-</keks>
-
-<div class="flex">
-    <h3>LibertyBans</h3>
-    <a href="https://github.com/A248/LibertyBans/releases" target="_blank">
-        <img src="/modrinth.webp" class="sex">
-    </a>
-    <a href="https://www.spigotmc.org/resources/libertybans.81063" target="_blank">
-        <img src="/github.webp" class="sex">
-    </a>
-</div>
-<keks>
-    Лучший плагин на баны среди бесплатных. Является заменой AdvancedBans, а также может похвастаться хорошей стабильностью работы
 </keks>
 
 <div class="flex">

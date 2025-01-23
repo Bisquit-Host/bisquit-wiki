@@ -10,7 +10,7 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>EnderaLib</h3>
-    <a href="https://modrinth.com/plugin/enderalib" _target="blank">
+    <a href="https://modrinth.com/plugin/enderalib" target="_blank">
         <img src="/modrinth.webp" class="sex">
     </a>
 </div>
@@ -56,7 +56,7 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>AntiCloneTool</h3>
-    <a href="https://modrinth.com/plugin/anticlonetool" _target="blank">
+    <a href="https://modrinth.com/plugin/anticlonetool" target="_blank">
         <img src="/modrinth.webp" class="sex">
     </a>
 </div>
@@ -68,10 +68,10 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>LimboAuth/LimboFilter/LimboApi</h3>
-    <a href="https://github.com/Elytrium/LimboAuth/releases" _target="blank">
+    <a href="https://github.com/Elytrium/LimboAuth/releases" target="_blank">
         <img src="/github.webp" class="sex" title="LimboAuth">
     </a>
-    <a href="https://github.com/Elytrium/LimboFilter/releases" _target="blank">
+    <a href="https://github.com/Elytrium/LimboFilter/releases" target="_blank">
         <img src="/github.webp" class="sex" title="LimboFilter">
     </a>
     <a href="https://github.com/Elytrium/LimboAPI/releases" target="_blank">
@@ -84,13 +84,13 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>LimboAuth Social Addon</h3>
-    <a href="https://modrinth.com/plugin/limboauth-socialaddon" _target="blank">
+    <a href="https://modrinth.com/plugin/limboauth-socialaddon" target="_blank">
         <img src="/modrinth.webp" class="sex">
     </a>
-    <a href="https://github.com/Elytrium/LimboAuth-SocialAddon/releases" _target="blank">
+    <a href="https://github.com/Elytrium/LimboAuth-SocialAddon/releases" target="_blank">
         <img src="/github.webp" class="sex">
     </a>
-    <a href="https://www.spigotmc.org/resources/limboauth-social-addon.102170" _target="blank">
+    <a href="https://www.spigotmc.org/resources/limboauth-social-addon.102170" target="_blank">
         <img src="/spigot.webp" class="sex">
     </a>
 </div>
@@ -100,10 +100,10 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>FastMotd</h3>
-    <a href="https://modrinth.com/plugin/fastmotd/versions" _target="blank">
+    <a href="https://modrinth.com/plugin/fastmotd/versions" target="_blank">
         <img src="/modrinth.webp" class="sex">
     </a>
-    <a href="https://github.com/Elytrium/FastMOTD/releases" _target="blank">
+    <a href="https://github.com/Elytrium/FastMOTD/releases" target="_blank">
         <img src="/github.webp" class="sex">
     </a>
 </div>
@@ -115,10 +115,10 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>SquareMap</h3>
-    <a href="https://modrinth.com/plugin/squaremap" _target="blank">
+    <a href="https://modrinth.com/plugin/squaremap" target="_blank">
         <img src="/modrinth.webp" class="sex">
     </a>
-    <a href="https://github.com/jpenilla/squaremap/releases" _target="blank">
+    <a href="https://github.com/jpenilla/squaremap/releases" target="_blank">
         <img src="/github.webp" class="sex">
     </a>
 </div>
@@ -128,13 +128,13 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>TAB</h3>
-    <a href="https://modrinth.com/plugin/tab-was-taken" _target="blank">
+    <a href="https://modrinth.com/plugin/tab-was-taken" target="_blank">
         <img src="/modrinth.webp" class="sex">
     </a>
-    <a href="https://github.com/NEZNAMY/TAB/releases" _target="blank">
+    <a href="https://github.com/NEZNAMY/TAB/releases" target="_blank">
         <img src="/github.webp" class="sex">
     </a>
-    <a href="https://www.spigotmc.org/resources/57806" _target="blank">
+    <a href="https://www.spigotmc.org/resources/57806" target="_blank">
         <img src="/spigot.webp" class="sex">
     </a>
 </div>
@@ -144,7 +144,7 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>Sunlight</h3>
-    <a href="https://www.spigotmc.org/resources/sunlight-server-management-plugin-essentials-update-part-ii.67733" _target="blank">
+    <a href="https://www.spigotmc.org/resources/sunlight-server-management-plugin-essentials-update-part-ii.67733" target="_blank">
         <img src="/spigot.webp" class="sex">
     </a>
 </div>
@@ -154,13 +154,13 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>DiscordSRV</h3>
-    <a href="https://modrinth.com/plugin/discordsrv/versions" _target="blank">
+    <a href="https://modrinth.com/plugin/discordsrv/versions" target="_blank">
         <img src="/modrinth.webp" class="sex">
     </a>
-    <a href="https://github.com/DiscordSRV/DiscordSRV/releases" _target="blank">
+    <a href="https://github.com/DiscordSRV/DiscordSRV/releases" target="_blank">
         <img src="/github.webp" class="sex">
     </a>
-    <a href="https://www.spigotmc.org/resources/discordsrv.18494" _target="blank">
+    <a href="https://www.spigotmc.org/resources/discordsrv.18494" target="_blank">
         <img src="/spigot.webp" class="sex">
     </a>
 </div>
@@ -174,10 +174,10 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>LibertyBans</h3>
-    <a href="https://github.com/A248/LibertyBans/releases" _target="blank">
+    <a href="https://github.com/A248/LibertyBans/releases" target="_blank">
         <img src="/modrinth.webp" class="sex">
     </a>
-    <a href="https://www.spigotmc.org/resources/libertybans.81063" _target="blank">
+    <a href="https://www.spigotmc.org/resources/libertybans.81063" target="_blank">
         <img src="/github.webp" class="sex">
     </a>
 </div>
@@ -187,13 +187,13 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>Sonar</h3>
-    <a href="https://modrinth.com/plugin/sonar" _target="blank">
+    <a href="https://modrinth.com/plugin/sonar" target="_blank">
         <img src="/modrinth.webp" class="sex">
     </a>
-    <a href="https://github.com/jonesdevelopment/sonar" _target="blank">
+    <a href="https://github.com/jonesdevelopment/sonar" target="_blank">
         <img src="/github.webp" class="sex">
     </a>
-    <a href="https://www.spigotmc.org/resources/sonar.115239" _target="blank">
+    <a href="https://www.spigotmc.org/resources/sonar.115239" target="_blank">
         <img src="/spigot.webp" class="sex">
     </a>
 </div>

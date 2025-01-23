@@ -103,8 +103,8 @@
 }
 
 .flex img {
-    width: 34px;
-    height: 34px;
+    width: 32px;
+    height: 32px;
     background-color: #383838; /* Белый фон */
     border-radius: 25%; /* Скругленные края */
     /*padding: 4px;*/

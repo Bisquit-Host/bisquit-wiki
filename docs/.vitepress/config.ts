@@ -8,6 +8,9 @@ export default defineConfig({
   title: "Bisquit Wiki",
   description: "База знаний лучшего хостинга Bisquit.Host",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     outline: {
       label: "На этой странице",
     },

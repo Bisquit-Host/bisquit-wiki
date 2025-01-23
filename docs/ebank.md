@@ -14,22 +14,25 @@ outline: deep
 - Discord: sculmix
 - Discord: turbovadim
 - [Telegram](https://t.me/YolkinVadim)
-
-Обращайтесь к Sculmix если в сети
-
-### Команды:​
+- 
+### Команды:
 - **/bank** - открыть меню
 - **/bank deposit** - пополнение карты
 - **/bank pay (Ник/Номер счёта)** - перевод другому игроку
 - **/bank transfer (с какого) (куда)** - перевод между вашими счетами
 - **/bank subuser add/remove (ник) (счёт)** - добавить совладельца счёта
 - **/bank newcard (дизайн)** - создать новую карту
+- **/bank transaction view (ник)** - просмотреть транзакции игрока
 - **/bank warn (ник) (сумма) (причина)** - выдать штраф
+- **/bank warns (ник)** - просмотреть штрафы игрока
 - **/bank unwarn (Номер штрафа)** - снять штраф
 - **/bank paywarn (Номер штрафа)** - оплатить штраф
 
-### Права:​
+### Права:
 - **enderabank.reload** - разрешает перезагружать конфиг плагина
+- **enderabank.design.change** - разрешает менять дизайн собственных карт
+- **enderabank.design.название_дизайна** - разрешает создавать карты с указанным дизайном
+- **enderabank.transactions.view** - разрешает просматривать транзакции игроков
 - **enderabank.newcard** - разрешение на создание новой карты
 - **enderabank.subuser** - разрешение на добавление совладельцев
 - **enderabank.sbp** - разрешение на переводы без комиссии
@@ -37,7 +40,15 @@ outline: deep
 - **enderabank.payments** - разрешение на переводы
 - **enderabank.deposit** - разрешение на пополнение счёта через меню
 
-### Конфигурация:​
+### Плейсхолдеры:
+- **%enderabank_balance%** - баланс всех счетов
+- **%enderabank_balance_formatted%** - баланс всех счетов с названием валюты
+- **%enderabank_balance_main%** - баланс основного счета
+- **%enderabank_balance_main_formatted%** - баланс основного счета с названием валюты
+- **%enderabank_balance_others%** - баланс всех счетов, где вы совладелец
+- **%enderabank_balance_others_formatted%** - баланс всех счетов, где вы совладелец, с названием валюты
+
+### Конфигурация:
 ::: details Развернуть
 ```yml
 storage:

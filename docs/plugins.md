@@ -9,12 +9,12 @@
 [Modrinth](https://modrinth.com/plugin/enderalib)
 
 ### EnderaBank (платно)
-Гойда банк<br>
+Функциональный и удобный плагин для банковской системы с использованием руды<br>
 [BisquitWiki](/ebank)<br>
 [Black-Minecraft](https://black-minecraft.com/resources/enderabank.5300/)
 
 ### EnderaPassport (платно)
-Гойда паспорт<br>
+Простой и удобный плагин для системы паспортов в RP-проектах<br>
 [BisquitWiki](/epassport)<br>
 [Black-Minecraft](https://black-minecraft.com/resources/enderapassport.4881/)
 

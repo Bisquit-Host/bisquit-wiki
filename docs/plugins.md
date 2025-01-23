@@ -3,7 +3,9 @@
 Здесь вы можете посмотреть список рекомендуемых плагинов в каждой категории для установки на сервер (бесплатных и платных)
 
 ## By Bisquit.Host
-EnderaLib
+
+### EnderaLib
+Библиотека, установки которой требуют все наши плагины<br>
 [Modrinth](https://modrinth.com/plugin/enderalib)
 
 Bank
@@ -16,10 +18,10 @@ EnderaOpenChat
 ## Velocity
 LimboAuth/LimboFilter/LimboApi
 Velocity
-Связка из трёх плагинов для удобной регистрации игроков на сервере и его защиты от ботов
-[GitHub](https://github.com/Elytrium/LimboAuth/releases)
-[GitHub](https://github.com/Elytrium/LimboFilter/releases)
-[GitHub](https://github.com/Elytrium/LimboAPI/releases)
+Связка из трёх плагинов для удобной регистрации игроков на сервере и его защиты от ботов<br>
+[GitHub | LimboAuth](https://github.com/Elytrium/LimboAuth/releases)<br>
+[GitHub | LimboFilter](https://github.com/Elytrium/LimboFilter/releases)<br>
+[GitHub | LimboAPI](https://github.com/Elytrium/LimboAPI/releases)
 
 LimboAuth Social Addon
 Velocity

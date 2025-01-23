@@ -78,7 +78,8 @@ export default defineConfig({
         collapsed: false,
         items: [
 		  { text: 'Lost Souls', link: '/lostsouls' },
-		  { text: 'Chunky', link: '/chunky' },
+          { text: 'Плагины', link: '/plugins' },
+          { text: 'Chunky', link: '/chunky' },
 		  { text: 'EnderaBank', link: '/ebank' },
 		  { text: 'EnderaPassport', link: '/epassport' },
         ]

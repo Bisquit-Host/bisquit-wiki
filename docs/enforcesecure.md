@@ -3,8 +3,8 @@
 Для исправления этой ошибки нужно зайти в файл server.properties и в параметре `enforce-secure-profile` установить `false` заместо `true` и перезапустить сервер
 
 ```properties
-enforce-secure-profile=true // [!code --]
-enforce-secure-profile=false // [!code ++]
+enforce-secure-profile=true # [!code --]
+enforce-secure-profile=false # [!code ++]
 ```
 
 ::: tip Интересно

@@ -100,7 +100,7 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>FastMotd</h3>
-    <a href="(https://modrinth.com/plugin/fastmotd/versions">
+    <a href="https://modrinth.com/plugin/fastmotd/versions" _target="blank">
         <img src="/modrinth.webp" class="sex">
     </a>
     <a href="https://github.com/Elytrium/FastMOTD/releases">
@@ -115,10 +115,10 @@ import keks from '/.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3>SquareMap</h3>
-    <a href="(https://modrinth.com/plugin/squaremap">
+    <a href="https://modrinth.com/plugin/squaremap" _target="blank">
         <img src="/modrinth.webp" class="sex">
     </a>
-    <a href="hthttps://github.com/jpenilla/squaremap/releases">
+    <a href="https://github.com/jpenilla/squaremap/releases" _target="blank">
         <img src="/github.webp" class="sex">
     </a>
 </div>

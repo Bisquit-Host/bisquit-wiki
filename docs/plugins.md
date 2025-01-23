@@ -10,7 +10,7 @@
 
 ### <b style="color:lightgreen">$</b> EnderaBank
 Функциональный и удобный плагин для банковской системы с использованием руды<br>
-[BisquitWiki](/ebank)<br>
+[Bisquit Wiki](/ebank)<br>
 [Black-Minecraft](https://black-minecraft.com/resources/enderabank.5300)
 <div class="flex">
     <a>
@@ -26,7 +26,7 @@
 
 ### <b style="color:lightgreen">$</b> EnderaPassport
 Простой и удобный плагин для системы паспортов в RP-проектах<br>
-[BisquitWiki](/epassport)<br>
+[Bisquit Wiki](/epassport)<br>
 [Black-Minecraft](https://black-minecraft.com/resources/enderapassport.4881)
 
 ### EnderaOpenChat

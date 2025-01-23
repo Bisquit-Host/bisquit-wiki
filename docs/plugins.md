@@ -77,9 +77,6 @@ Velocity
     <a href="https://github.com/Elytrium/LimboAuth-SocialAddon/releases">
         <img src="/github.webp" class="sex">
     </a>
-    <a href="https://polymart.org/resource/limboauth-social-addon.2460">
-        <img src="/polymart.webp" class="sex">
-    </a>
     <a href="https://www.spigotmc.org/resources/limboauth-social-addon.102170">
         <img src="/spigot.webp" class="sex">
     </a>

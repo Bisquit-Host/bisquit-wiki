@@ -94,7 +94,7 @@
     align-items: center;
     flex-wrap: wrap;
     display: flex;
-    gap: 7px; /* Расстояние между картинками */
+    gap: 5px; /* Расстояние между картинками */
     /*justify-content: center; !* Выравнивание по центру *!*/
 }
 
@@ -103,8 +103,8 @@
 }
 
 .flex img {
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
     background-color: #383838; /* Белый фон */
     border-radius: 25%; /* Скругленные края */
     /*padding: 4px;*/

@@ -15,8 +15,6 @@ outline: deep
 - Discord: turbovadim
 - [Telegram](https://t.me/YolkinVadim)
 
-Обращайтесь к Sculmix если в сети
-
 ### Команды:​
 - **/passport** - просмотр своего паспорта
 - **/passport new [playerName] [Возраст] [Пол] [Семейное положение] [Место жительства]** - создание нового паспорта

@@ -8,12 +8,12 @@
 Библиотека, установка которой требуется для работы всех наших плагинов<br>
 [Modrinth](https://modrinth.com/plugin/enderalib)
 
-### EnderaBank (платно)
+### <b style="color:lightgreen">$</b> EnderaBank
 Функциональный и удобный плагин для банковской системы с использованием руды<br>
 [BisquitWiki](/ebank)<br>
 [Black-Minecraft](https://black-minecraft.com/resources/enderabank.5300)
 
-### EnderaPassport (платно)
+### <b style="color:lightgreen">$</b> EnderaPassport
 Простой и удобный плагин для системы паспортов в RP-проектах<br>
 [BisquitWiki](/epassport)<br>
 [Black-Minecraft](https://black-minecraft.com/resources/enderapassport.4881)
@@ -51,7 +51,7 @@ Velocity
 ## Прочее
 
 ### SquareMap
-Paper, Neoforge, Sponge, Fabric (requires Fabric API)
+Paper, Neoforge, Sponge, Fabric
 Очень производительная веб-карта для вашего сервера<br>
 [Modrinth](https://modrinth.com/plugin/squaremap)<br>
 [GitHub](https://github.com/jpenilla/squaremap/releases)

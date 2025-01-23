@@ -1,20 +1,25 @@
+<script setup>
+import keks from '/.vitepress/theme/keks.vue'
+</script>
+
 # Рекомендуемые плагины
 
 Здесь вы можете посмотреть список рекомендуемых плагинов в каждой категории для установки на сервер (бесплатных и платных)
 
 ## By Bisquit.Host
 
-### EnderaLib
-Библиотека, установка которой требуется для работы всех наших плагинов
 <div class="flex">
+    <h3>EnderaLib</h3>
     <a href="https://modrinth.com/plugin/enderalib">
         <img src="/modrinth.webp" class="sex">
     </a>
 </div>
+<keks>
+    Библиотека, установка которой требуется для работы всех наших плагинов
+</keks>
 
-### <b style="color:lightgreen">$</b> EnderaBank
-Функциональный и удобный плагин для банковской системы с использованием руды
 <div class="flex">
+    <h3><b style="color:lightgreen">$</b> EnderaBank</h3>
     <a href="/ebank">
         <img src="/bisquit.webp">
     </a>
@@ -22,11 +27,12 @@
         <img src="/bm.webp" class="sex">
     </a>
 </div>
-
-### <b style="color:lightgreen">$</b> EnderaPassport
-Простой и удобный плагин для системы паспортов в RP-проектах
+<keks>
+    Функциональный и удобный плагин для банковской системы с использованием руды
+</keks>
 
 <div class="flex">
+    <h3><b style="color:lightgreen">$</b> EnderaPassport</h3>
     <a href="/epassport">
         <img src="/bisquit.webp">
     </a>
@@ -34,28 +40,33 @@
         <img src="/bm.webp" class="sex">
     </a>
 </div>
+<keks>
+    Простой и удобный плагин для системы паспортов в RP-проектах
+</keks>
 
-### EnderaOpenChat
-Простой, стабильный и современный плагин на чат с поддержкой Folia
 <div class="flex">
+    <h3>EnderaOpenChat</h3>
     <a href="https://modrinth.com/plugin/enderaopenchat" target="_blank">
         <img src="/modrinth.webp" class="sex">
     </a>
 </div>
+<keks>
+    Простой, стабильный и современный плагин на чат с поддержкой Folia
+</keks>
 
-### AntiCloneTool
-Добавляет возможность защитить карты и шаблоны
 <div class="flex">
     <a href="https://modrinth.com/plugin/anticlonetool">
         <img src="/modrinth.webp" class="sex">
     </a>
 </div>
+<keks>
+    Добавляет возможность защитить карты и шаблоны
+</keks>
 
 ## Velocity
 
-### LimboAuth/LimboFilter/LimboApi
-Связка из трёх плагинов для удобной регистрации игроков на сервере и его защиты от ботов
 <div class="flex">
+    <h3>LimboAuth/LimboFilter/LimboApi</h3>
     <a href="https://github.com/Elytrium/LimboAuth/releases">
         <img src="/github.webp" class="sex" title="LimboAuth">
     </a>
@@ -66,10 +77,10 @@
         <img src="/github.webp" class="sex" title="LimboAPI">
     </a>
 </div>
+<keks>
+    Связка из трёх плагинов для удобной регистрации игроков на сервере и его защиты от ботов
+</keks>
 
-### LimboAuth Social Addon
-Velocity
-Аддон для LimboAuth, добавляющий привязку к соц. сетям (Discord, Telegram, VK)
 <div class="flex">
     <a href="https://modrinth.com/plugin/limboauth-socialaddon">
         <img src="/modrinth.webp" class="sex">
@@ -81,10 +92,10 @@ Velocity
         <img src="/spigot.webp" class="sex">
     </a>
 </div>
+<keks>
+    Аддон для LimboAuth, добавляющий привязку к соц. сетям (Discord, Telegram, VK)
+</keks>
 
-### FastMotd
-Velocity
-Плагин на Motd, заточенный на уменьшение нагрузки при атаке пингами
 <div class="flex">
     <a href="(https://modrinth.com/plugin/fastmotd/versions">
         <img src="/modrinth.webp" class="sex">
@@ -93,12 +104,13 @@ Velocity
         <img src="/github.webp" class="sex">
     </a>
 </div>
+<keks>
+    Velocity
+    Плагин на Motd, заточенный на уменьшение нагрузки при атаке пингами
+</keks>
 
 ## Прочее
 
-### SquareMap
-Paper, Neoforge, Sponge, Fabric
-Очень производительная веб-карта для вашего сервера
 <div class="flex">
     <a href="(https://modrinth.com/plugin/squaremap">
         <img src="/modrinth.webp" class="sex">
@@ -107,10 +119,11 @@ Paper, Neoforge, Sponge, Fabric
         <img src="/github.webp" class="sex">
     </a>
 </div>
+<keks>
+    Paper, Neoforge, Sponge, Fabric
+    Очень производительная веб-карта для вашего сервера
+</keks>
 
-### TAB
-Paper, BungeeCord, Velocity, Folio
-Лучший плагин на TAB и Scoreboard, имеет наиболее обширный функционал среди аналогов
 <div class="flex">
     <a href="(https://modrinth.com/plugin/tab-was-taken">
         <img src="/modrinth.webp" class="sex">
@@ -122,22 +135,20 @@ Paper, BungeeCord, Velocity, Folio
         <img src="/spigot.webp" class="sex">
     </a>
 </div>
+<keks>
+    Paper, BungeeCord, Velocity, Folio
+    Лучший плагин на TAB и Scoreboard, имеет наиболее обширный функционал среди аналогов
+</keks>
 
-### Sunlight
-Бесплатный аналог CMI и замена Essentials. Имеет неплохой функционал, но не является безальтернативным
 <div class="flex">
     <a href="https://www.spigotmc.org/resources/sunlight-server-management-plugin-essentials-update-part-ii.67733">
         <img src="/spigot.webp" class="sex">
     </a>
 </div>
+<keks>
+    Бесплатный аналог CMI и замена Essentials. Имеет неплохой функционал, но не является безальтернативным
+</keks>
 
-### DiscordSRV
-Привязка Mincecraft сервера к Discord
-
-1. Связка чата Minecraft и Discord | Когда человек отправляет в чат (Minecraft) сообщение - оно показывается в Discord-канале, и наоборот 
-2. Можно сделать мини-консоль | В определенном канале будут отображаться все логи из консоли (очень удобно, но не безопасно)
-3. Можно делать свои команды, используя Minecraft плейсхолдеры (примеры ниже)
-4. Можно связать ники с сервера с никами Minecraft (только если включена привязка)
 <div class="flex">
     <a href="(https://modrinth.com/plugin/discordsrv/versions">
         <img src="/modrinth.webp" class="sex">
@@ -149,9 +160,14 @@ Paper, BungeeCord, Velocity, Folio
         <img src="/spigot.webp" class="sex">
     </a>
 </div>
+<keks>
+    Привязка Mincecraft сервера к Discord<br>
+    1. Связка чата Minecraft и Discord | Когда человек отправляет в чат (Minecraft) сообщение - оно показывается в Discord-канале, и наоборот<br>
+    2. Можно сделать мини-консоль | В определенном канале будут отображаться все логи из консоли (очень удобно, но не безопасно)<br>
+    3. Можно делать свои команды, используя Minecraft плейсхолдеры (примеры ниже)<br>
+    4. Можно связать ники с сервера с никами Minecraft (только если включена привязка)<br>
+</keks>
 
-### LibertyBans
-Лучший плагин на баны среди бесплатных. Является заменой AdvancedBans, а также может похвастаться хорошей стабильностью работы
 <div class="flex">
     <a href="(https://github.com/A248/LibertyBans/releases">
         <img src="/modrinth.webp" class="sex">
@@ -160,9 +176,10 @@ Paper, BungeeCord, Velocity, Folio
         <img src="/github.webp" class="sex">
     </a>
 </div>
+<keks>
+    Лучший плагин на баны среди бесплатных. Является заменой AdvancedBans, а также может похвастаться хорошей стабильностью работы
+</keks>
 
-### Sonar
-Очень интересный антибот для Velocity/Bungee/Bukkit. Капчи нет, но имеются проверки на пакеты и коллизию с блоками
 <div class="flex">
     <a href="(https://modrinth.com/plugin/sonar">
         <img src="/modrinth.webp" class="sex">
@@ -174,3 +191,6 @@ Paper, BungeeCord, Velocity, Folio
         <img src="/spigot.webp" class="sex">
     </a>
 </div>
+<keks>
+    Очень интересный антибот для Velocity/Bungee/Bukkit. Капчи нет, но имеются проверки на пакеты и коллизию с блоками
+</keks>

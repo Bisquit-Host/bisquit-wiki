@@ -80,8 +80,8 @@ export default defineConfig({
         text: 'Cборки/Плагины',
         collapsed: false,
         items: [
-		  { text: 'Lost Souls', link: '/lostsouls' },
           { text: 'Плагины', link: '/plugins' },
+          { text: 'Lost Souls', link: '/lostsouls' },
           { text: 'Chunky', link: '/chunky' },
 		  { text: 'EnderaBank', link: '/ebank' },
 		  { text: 'EnderaPassport', link: '/epassport' },

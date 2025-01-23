@@ -90,9 +90,16 @@
 }
 
 .flex {
+    margin-top: 32px;;
+    align-items: center;
+    flex-wrap: wrap;
     display: flex;
     gap: 7px; /* Расстояние между картинками */
     /*justify-content: center; !* Выравнивание по центру *!*/
+}
+
+.flex h3 {
+    margin: 0 3px 0 0;
 }
 
 .flex img {

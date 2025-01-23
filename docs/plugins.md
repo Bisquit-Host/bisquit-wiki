@@ -55,6 +55,7 @@ import keks from '/.vitepress/theme/keks.vue'
 </keks>
 
 <div class="flex">
+    <h3>AntiCloneTool</h3>
     <a href="https://modrinth.com/plugin/anticlonetool">
         <img src="/modrinth.webp" class="sex">
     </a>
@@ -82,6 +83,7 @@ import keks from '/.vitepress/theme/keks.vue'
 </keks>
 
 <div class="flex">
+    <h3>LimboAuth Social Addon</h3>
     <a href="https://modrinth.com/plugin/limboauth-socialaddon">
         <img src="/modrinth.webp" class="sex">
     </a>
@@ -97,6 +99,7 @@ import keks from '/.vitepress/theme/keks.vue'
 </keks>
 
 <div class="flex">
+    <h3>FastMotd</h3>
     <a href="(https://modrinth.com/plugin/fastmotd/versions">
         <img src="/modrinth.webp" class="sex">
     </a>
@@ -112,6 +115,7 @@ import keks from '/.vitepress/theme/keks.vue'
 ## Прочее
 
 <div class="flex">
+    <h3>SquareMap</h3>
     <a href="(https://modrinth.com/plugin/squaremap">
         <img src="/modrinth.webp" class="sex">
     </a>
@@ -125,6 +129,7 @@ import keks from '/.vitepress/theme/keks.vue'
 </keks>
 
 <div class="flex">
+    <h3>TAB</h3>
     <a href="(https://modrinth.com/plugin/tab-was-taken">
         <img src="/modrinth.webp" class="sex">
     </a>
@@ -141,6 +146,7 @@ import keks from '/.vitepress/theme/keks.vue'
 </keks>
 
 <div class="flex">
+    <h3>Sunlight</h3>
     <a href="https://www.spigotmc.org/resources/sunlight-server-management-plugin-essentials-update-part-ii.67733">
         <img src="/spigot.webp" class="sex">
     </a>
@@ -150,6 +156,7 @@ import keks from '/.vitepress/theme/keks.vue'
 </keks>
 
 <div class="flex">
+    <h3>DiscordSRV</h3>
     <a href="(https://modrinth.com/plugin/discordsrv/versions">
         <img src="/modrinth.webp" class="sex">
     </a>
@@ -169,6 +176,7 @@ import keks from '/.vitepress/theme/keks.vue'
 </keks>
 
 <div class="flex">
+    <h3>LibertyBans</h3>
     <a href="(https://github.com/A248/LibertyBans/releases">
         <img src="/modrinth.webp" class="sex">
     </a>
@@ -181,6 +189,7 @@ import keks from '/.vitepress/theme/keks.vue'
 </keks>
 
 <div class="flex">
+    <h3>Sonar</h3>
     <a href="(https://modrinth.com/plugin/sonar">
         <img src="/modrinth.webp" class="sex">
     </a>

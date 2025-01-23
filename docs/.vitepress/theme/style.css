@@ -105,10 +105,9 @@
 .flex img {
     width: 32px;
     height: 32px;
-    background-color: #383838; /* Белый фон */
-    border-radius: 25%; /* Скругленные края */
-    /*padding: 4px;*/
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    background-color: #383838;
+    border-radius: 25%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .sex {

@@ -16,11 +16,8 @@
     <a>
         <img src="/github.png" alt="Github" width="50" height="50">
     </a>
-    <a>
-        <img src="/github.png" alt="Github" width="50" height="50">
-    </a>
-    <a>
-        <img src="/github.png" alt="Github" width="50" height="50">
+    <a href="https://black-minecraft.com/resources/enderabank.5300" target="_blank">
+        <img src="/bm.webp" class="sex">
     </a>
 </div>
 

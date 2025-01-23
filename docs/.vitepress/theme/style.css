@@ -98,10 +98,12 @@
 .flex img {
     width: 40px;
     height: 40px;
-    background-color: white; /* Белый фон */
+    background-color: #383838; /* Белый фон */
     border-radius: 25%; /* Скругленные края */
-    padding: 4px; /* Внутренний отступ */
+    /*padding: 4px;*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
 }
 
-
+.sex {
+    padding: 4px;
+}

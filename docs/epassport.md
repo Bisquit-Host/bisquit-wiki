@@ -15,7 +15,7 @@ outline: deep
 - Discord: turbovadim
 - [Telegram](https://t.me/YolkinVadim)
 
-### Команды:​
+### Команды:
 - **/passport** - просмотр своего паспорта
 - **/passport new [playerName] [Возраст] [Пол] [Семейное положение] [Место жительства]** - создание нового паспорта
 - **/passport delete [playerName]** - удалить паспорт игрока
@@ -23,13 +23,13 @@ outline: deep
 - **/passport show [playerName]** - показать игроку паспорт
 - **/passport reload** - перезагрузить файл конфигурации
 
-### Права:​
+### Права:
 - **enderapassport.remove** - разрешает удалять паспорта игроков
 - **enderapassport.reload** - разрешает перезагружать конфиг плагина
 - **enderapassport.create** - разрешает создание паспортов
 - **enderapassport.use** - разрешает использование паспортов, /passport [show/ask] (default: true)
 
-### Конфигурация:​
+### Конфигурация:
 ::: details Развернуть
 ```yml
 storage-type: "sqlite"

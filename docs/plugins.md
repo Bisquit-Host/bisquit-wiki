@@ -12,6 +12,17 @@
 Функциональный и удобный плагин для банковской системы с использованием руды<br>
 [BisquitWiki](/ebank)<br>
 [Black-Minecraft](https://black-minecraft.com/resources/enderabank.5300)
+<div class="flex">
+    <a>
+        <img src="/github.png" alt="Github" width="50" height="50">
+    </a>
+    <a>
+        <img src="/github.png" alt="Github" width="50" height="50">
+    </a>
+    <a>
+        <img src="/github.png" alt="Github" width="50" height="50">
+    </a>
+</div>
 
 ### <b style="color:lightgreen">$</b> EnderaPassport
 Простой и удобный плагин для системы паспортов в RP-проектах<br>

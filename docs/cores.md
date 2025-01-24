@@ -38,7 +38,7 @@
 
 - [Fabric](https://fabricmc.net/use/server) - modloader, который набрал огромную популярность в последнее время. Имеет множество модов на оптимизацию и разнообразные утилиты
 
-- [Quilt](https://quiltmc.org/en/install/server) - появившийся недавно modloader на основе Fabric, также поддерживающий моды на Quilt
+- [Quilt](https://quiltmc.org/en/install/server) - появившийся недавно modloader на основе Fabric
 
 - [NeoForge](https://neoforged.net) - новый modloader, основанный на Forge, но без поддержки Forge модов
 

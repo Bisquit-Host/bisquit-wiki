@@ -61,9 +61,18 @@ export default defineConfig({
         text: 'Ошибки',
         collapsed: false,
         items: [
-		  { text: 'Ошибка "getsockopt"', link: '/getsockopt' },
-		  { text: 'Ошибка "Не удалось проверить имя пользователя"', link: '/onlinemode' },
-		  { text: 'Ошибка "Открытый ключ профиля отсутствует."', link: '/enforcesecure' },
+          {
+            text: 'Не удалось проверить имя пользователя',
+            link: '/onlinemode'
+          },
+          {
+            text: 'getsockopt',
+            link: '/getsockopt'
+          },
+		  {
+            text: 'Открытый ключ профиля отсутствует. Для этого сервера требуются защищённые профили',
+            link: '/enforcesecure'
+          }
         ]
       },
       {
@@ -73,7 +82,7 @@ export default defineConfig({
 		  { text: 'Отключение ECH', link: '/ech' },
 		  { text: 'Перенос домена', link: '/transfer-domain' },
           { text: 'Привязка домена', link: '/connect-domain' },
-		  { text: 'Подключение онлайн карты к домену', link: '/originrules' },
+		  { text: 'Подключение онлайн карты к домену', link: '/originrules' }
         ]
       },
       {

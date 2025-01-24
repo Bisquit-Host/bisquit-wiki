@@ -67,7 +67,7 @@ export default defineConfig({
             link: '/getsockopt'
           },
 		  {
-            text: 'Открытый ключ профиля отсутствует. Для этого сервера требуются защищённые профили',
+            text: 'Открытый ключ профиля отсутствует...',
             link: '/enforcesecure'
           }
         ]

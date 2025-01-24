@@ -14,7 +14,7 @@ outline: deep
 - Discord: sculmix
 - Discord: turbovadim
 - [Telegram](https://t.me/YolkinVadim)
-- 
+
 ### Команды:
 - **/bank** - открыть меню
 - **/bank deposit** - пополнение карты

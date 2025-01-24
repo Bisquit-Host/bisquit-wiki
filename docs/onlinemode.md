@@ -6,6 +6,7 @@
 online-mode=true # [!code --]
 online-mode=false # [!code ++]
 ```
+
 ::: danger ВАЖНО
 Если вы хотите, чтобы на ваш сервер можно было зайти с пиратской версии Minecraft, ОБЯЗАТЕЛЬНО установите плагин на Login/Register, например как [AuthMe](https://ci.codemc.io/job/AuthMe/job/AuthMeReloaded/).
 Иначе ваш сервер может быть взломан путём входа под ником игрока с правами оператора

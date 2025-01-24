@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Начать
-      link: /server-properties
+      link: /faq
     - theme: alt
       text: Для продвинутых
       link: /server-properties

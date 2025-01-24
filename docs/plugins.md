@@ -6,7 +6,7 @@ import keks from '/.vitepress/theme/keks.vue'
 
 Здесь вы можете посмотреть список рекомендуемых плагинов в каждой категории для установки на сервер
 
-## By Bisquit.Host
+## От команды Bisquit.Host
 
 <div class="flex">
     <h3>EnderaLib</h3>

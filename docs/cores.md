@@ -36,21 +36,20 @@
 
 - [Forge](https://files.minecraftforge.net/net/minecraftforge/forge) - самый популярный modloader ввиду большого количества модов, но является не оптимизированным
 
-- [Fabric](https://fabricmc.net/use/server) - modloader, который в последнее время набрал огромную популярность. Имеет множество модов на оптимизацию и модов с разнообразными утилитами
+- [Fabric](https://fabricmc.net/use/server) - modloader, который набрал огромную популярность в последнее время. Имеет множество модов на оптимизацию и разнообразные утилиты
 
-- [Quilt](https://quiltmc.org/en/install/server) - появившийся недавно modloader на основе Fabric, поддерживающий также моды на Quilt
+- [Quilt](https://quiltmc.org/en/install/server) - появившийся недавно modloader на основе Fabric, также поддерживающий моды на Quilt
 
-- [NeoForge](https://neoforged.net) - новый modloader основанный на Forge, без поддержки модов Forge
+- [NeoForge](https://neoforged.net) - новый modloader, основанный на Forge, но без поддержки Forge модов
 
 ## Гибриды
 
 :::warning ОБРАТИТЕ ВНИМАНИЕ
-Плагины на гибридных серверах могут работать нестабильно/неправильно, в большинстве случаев
-авторы плагинов не оказывают поддержки тем, кто запускает их плагины на гибридных серверах
+Плагины на гибридных серверах могут работать нестабильно. В большинстве случаев авторы плагинов не оказывают поддержку пользователям гибридных серверов
 :::
 
 - [Ketting](https://kettingpowered.org) - основан на Forge, но также поддерживает Bukkit, Spigot и Paper плагины
 
-- [CatServer](https://catmc.org) - практически то же самое, что Ketting, но имеет поддержку ограниченного количества версий
+- [CatServer](https://catmc.org) - почти то же самое, что Ketting, но с поддержкой ограниченного количества версий
 
 - [Arclight](https://github.com/IzzelAliz/Arclight) - активно развивающееся ядро с поддержкой Forge, NeoForge, Fabric модов и Bukkit плагинов

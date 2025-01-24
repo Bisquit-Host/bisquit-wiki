@@ -14,11 +14,9 @@ export default defineConfig({
     outline: {
       label: "На этой странице",
     },
-	
     logo: '/64.webp',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      // { text: 'Home', link: '/' },
       {
         text: 'Bisquit.Host',
         items: [
@@ -38,7 +36,6 @@ export default defineConfig({
       prev: 'Предыдущая страница',
       next: 'Следующая страница'
     },
-
     sidebar: [
       {
         text: 'Услуги',
@@ -97,15 +94,13 @@ export default defineConfig({
         ]
 	  },
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Bisquit-Host' }
     ]
   },
-  
     markdown: {
     config: (md) => {
       md.use(lightbox, {});
     },
-  },
+  }
 })

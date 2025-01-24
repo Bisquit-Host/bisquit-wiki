@@ -12,7 +12,7 @@ outline: deep
 2. Заходим в Rules -> Origin Rules
 ![](/originrules2.png)
 
-3. Нажимаем  и заполняем как на скриншоте
+3. Нажимаем и заполняем как на скриншоте
 ![](/originrules3.png)
 
 4. Жмём Deploy и пробуем заходить

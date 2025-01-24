@@ -22,13 +22,13 @@ sidebar: auto
 
 ---
 
-## Шаг 2: Получение данных для API Cloudflare
+## Шаг 2: Получение данных для Cloudflare API
 
-Для взаимодействия с API Cloudflare вам понадобятся два ключевых элемента:
+Для взаимодействия с API вам понадобятся два ключевых элемента:
 
 ### Global API Key
 
-1. Перейдите на страницу Cloudflare: [https://dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens).
+1. Перейдите на эту страницу [Cloudflare](https://dash.cloudflare.com/profile/api-tokens).
 2. Найдите раздел с вашим **Global API Key** и скопируйте ключ
 
 ### Zone ID
@@ -37,8 +37,7 @@ sidebar: auto
 2. 
 3. Прокрутите страницу вниз и скопируйте значение **Zone ID**
 
-
-## Шаг 3: Отключение ECH через API Cloudflare
+## Шаг 3: Отключение ECH через Cloudflare API
 
 ### Использование команды `curl`
 

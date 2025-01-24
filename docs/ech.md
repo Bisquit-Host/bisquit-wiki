@@ -5,7 +5,7 @@ sidebar: auto
 # Отключение Encrypted Client Hello (ECH) на бесплатном тарифе Cloudflare через API
 
 :::info Зачем отключать ECH?
-Роскомнадзор заблокировал технологию Encrypted Client Hello (ECH), что вызвало проблемы для пользователей Cloudflare в России. Более того, Cloudflare принудительно активировал эту технологию для всех пользователей, включая тех, кто находится на бесплатном тарифе. В этом гайде мы разберем, как отключить ECH для вашего домена через API Cloudflare
+Роскомнадзор заблокировал технологию Encrypted Client Hello (ECH), что вызвало проблемы для пользователей Cloudflare в России. Более того, Cloudflare принудительно активировал эту технологию для всех пользователей, включая тех, кто находится на бесплатном тарифе. В этом гайде мы разберем как отключить ECH для вашего домена через Cloudflare API
 ::: 
 
 ---
@@ -37,7 +37,6 @@ sidebar: auto
 2. 
 3. Прокрутите страницу вниз и скопируйте значение **Zone ID**
 
----
 
 ## Шаг 3: Отключение ECH через API Cloudflare
 
@@ -73,9 +72,6 @@ curl -X PATCH "https://api.cloudflare.com/client/v4/zones/{ID_ZONE}/settings/ech
      "value": "off"
    }
    ```
-
----
-
 ## В случае с платным тарифом
 
 Если вы используете платный тариф Cloudflare, отключить ECH можно через интерфейс панели управления:
@@ -85,5 +81,3 @@ curl -X PATCH "https://api.cloudflare.com/client/v4/zones/{ID_ZONE}/settings/ech
 2. Откройте вкладку **Edge Certificates**
 
 3. Найдите настройку **Encrypted ClientHello (ECH)** и установите значение **Disabled**
-
----

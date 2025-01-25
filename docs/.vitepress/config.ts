@@ -42,7 +42,7 @@ export default defineConfig({
         collapsed: false,
         items: [
 		{ text: 'ЧАВО', link: '/faq' },
-          { text: 'Выбор тарифа Minecraft', link: '/choose-plan' },
+          { text: 'Выбор тарифа Minecraft', link: '/choose-plan' }
         ]
       },
       {
@@ -51,7 +51,14 @@ export default defineConfig({
         items: [
 		  { text: 'server.properties', link: '/server-properties' },
 		  { text: 'Ядра', link: '/cores' },
-		  { text: 'Установка ядра', link: '/installcore' },
+		  { text: 'Установка ядра', link: '/installcore' }
+        ]
+      },
+      {
+        text: 'Проблемы',
+        collapsed: false,
+        items: [
+		  { text: 'Большой пинг', link: '/big-ping' }
         ]
       },
       {

@@ -44,9 +44,9 @@ Purpur добавляет множество настроек, которые д
 - [Forge](https://files.minecraftforge.net/net/minecraftforge/forge) - самый популярный modloader благодаря большому количеству модов, но не отличается оптимизацией
 
 - [Fabric](https://fabricmc.net/use/server) - modloader, который набрал огромную популярность в последнее время.
-Имеет множество модов на оптимизацию и разнообразные утилиты
+Имеет множество модов для оптимизации и разнообразные утилиты
 
-- [Quilt](https://quiltmc.org/en/install/server) - появившийся недавно modloader на основе Fabric
+- [Quilt](https://quiltmc.org/en/install/server) - относительно новый modloader на основе Fabric
 
 - [NeoForge](https://neoforged.net) - Новый modloader, основанный на Forge, но без поддержки его модов
 

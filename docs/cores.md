@@ -25,9 +25,9 @@ Purpur добавляет множество настроек, которые д
 - ❌ [Spigot](https://getbukkit.org/download/spigot) - форк CraftBukkit, добавляющий на то время "хорошую оптимизацию" и прочие функции, которые настраиваются в файле `spigot.yml`.
 Также **не рекомендуется** к использованию
 
-## Прокси ядра
+## Прокси-ядра
 
-- [Velocity](https://papermc.io/software/velocity) - прокси ядро нового поколения, что пришло на замену BungeeCord/Waterfall.
+- [Velocity](https://papermc.io/software/velocity) - прокси-ядро нового поколения, что пришло на замену BungeeCord/Waterfall.
 Сделано разработчиками Paper и рекомендуется к использованию
 
 - [NullCordX](https://builtbybit.com/resources/nullcordx-lightweight-antibot.22322) - **платное ядро** на основе Waterfall.

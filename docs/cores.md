@@ -62,3 +62,5 @@ Purpur добавляет множество настроек, которые д
 - [CatServer](https://catmc.org) - почти то же самое, что Ketting, но с поддержкой ограниченного количества версий
 
 - [Arclight](https://github.com/IzzelAliz/Arclight) - активно развивающееся ядро с поддержкой Forge, NeoForge, Fabric модов и Bukkit плагинов
+
+- [Mohist](https://mohistmc.com) - основан на Forge, но также поддерживает Bukkit и Spigot плагины

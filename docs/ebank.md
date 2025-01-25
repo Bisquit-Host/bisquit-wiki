@@ -48,7 +48,7 @@ outline: deep
 - **%enderabank_balance_others%** - баланс всех счетов, где вы совладелец
 - **%enderabank_balance_others_formatted%** - баланс всех счетов, где вы совладелец, с названием валюты
 
-### Конфигурация:
+### Конфиг:
 ::: details Развернуть
 ```yml
 storage:

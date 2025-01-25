@@ -29,7 +29,7 @@ outline: deep
 - **enderapassport.create** - разрешает создание паспортов
 - **enderapassport.use** - разрешает использование паспортов, /passport [show/ask] (default: true)
 
-### Конфигурация:
+### Конфиг:
 ::: details Развернуть
 ```yml
 storage-type: "sqlite"

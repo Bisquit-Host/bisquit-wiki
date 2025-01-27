@@ -77,6 +77,8 @@ export default defineConfig({
         collapsed: false,
         items: [
 		  { text: 'server.properties', link: '/server-properties' },
+		  { text: 'Загрузка своего мира', link: '/upload-world' },
+		  { text: 'Как подключиться через FileZilla', link: '/filezilla' },
 		  { text: 'Ядра', link: '/cores' },
 		  { text: 'Установка ядра', link: '/installcore' }
         ]

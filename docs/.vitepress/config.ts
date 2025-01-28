@@ -52,8 +52,8 @@ export default defineConfig({
             items: [
               { text: 'Основной сайт', link: 'https://bisquit.host' },
               { text: 'Discord', link: 'https://bisquit.host/discord' },
-              { text: 'Вконтакте', link: 'https://bisquit.host/vk' },
               { text: 'Telegram', link: 'https://bisquit.host/telegram' },
+              { text: 'VK', link: 'https://bisquit.host/vk' }
             ]
           }
         ]
@@ -68,7 +68,7 @@ export default defineConfig({
         text: 'Услуги',
         collapsed: false,
         items: [
-		{ text: 'ЧАВО', link: '/faq' },
+		  { text: 'ЧАВО', link: '/faq' },
           { text: 'Выбор тарифа Minecraft', link: '/choose-plan' }
         ]
       },

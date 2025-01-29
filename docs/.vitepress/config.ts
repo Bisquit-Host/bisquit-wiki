@@ -87,7 +87,8 @@ export default defineConfig({
         text: 'Проблемы',
         collapsed: false,
         items: [
-		  { text: 'Большой пинг', link: '/big-ping' }
+		  { text: 'Большой пинг', link: '/big-ping' },
+		  { text: 'EULA', link: '/eula' }
         ]
       },
       {

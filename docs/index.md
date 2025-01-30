@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: ЧАВО
-      link: /faq
+      link: services/faq
     - theme: alt
       text: server.properties
-      link: /server-properties
+      link: /server/server-properties
 features:
   - title: Интуитивность
     details: Наша Википедия написана максимально понятно, чтобы вы могли тратить меньше времени на изучение материала и больше — на разработку сервера

@@ -1,5 +1,5 @@
 <script setup>
-import keks from '/docs/.vitepress/theme/keks.vue'
+import keks from '../.vitepress/theme/keks.vue'
 </script>
 
 # Рекомендуемые плагины

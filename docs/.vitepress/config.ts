@@ -68,27 +68,27 @@ export default defineConfig({
         text: 'Услуги',
         collapsed: false,
         items: [
-		  { text: 'ЧАВО', link: '/faq' },
-          { text: 'Выбор тарифа Minecraft', link: '/choose-plan' }
+		  { text: 'ЧАВО', link: '/services/faq' },
+          { text: 'Выбор тарифа Minecraft', link: '/services/choose-plan' }
         ]
       },
       {
         text: 'Настройка Сервера',
         collapsed: false,
         items: [
-		  { text: 'server.properties', link: '/server-properties' },
-		  { text: 'Загрузка своего мира', link: '/upload-world' },
-		  { text: 'Как подключиться через FileZilla', link: '/filezilla' },
-		  { text: 'Ядра', link: '/cores' },
-		  { text: 'Установка ядра', link: '/installcore' }
+		  { text: 'server.properties', link: '/server-configuration/server-properties' },
+		  { text: 'Загрузка своего мира', link: '/server-configuration/upload-world' },
+		  { text: 'Как подключиться через FileZilla', link: '/server-configuration/filezilla' },
+		  { text: 'Ядра', link: '/server-configuration/serverjars' },
+		  { text: 'Установка ядра', link: '/server-configuration/installcore' }
         ]
       },
       {
         text: 'Проблемы',
         collapsed: false,
         items: [
-		  { text: 'Большой пинг', link: '/big-ping' },
-		  { text: 'EULA', link: '/eula' }
+		  { text: 'Большой пинг', link: '/issues/big-ping' },
+		  { text: 'EULA', link: '/issues/eula' }
         ]
       },
       {
@@ -97,15 +97,15 @@ export default defineConfig({
         items: [
           {
             text: 'Не удалось проверить имя пользователя',
-            link: '/onlinemode'
+            link: '/errors/onlinemode'
           },
           {
             text: 'getsockopt',
-            link: '/getsockopt'
+            link: '/errors/getsockopt'
           },
 		  {
             text: 'Открытый ключ профиля отсутствует...',
-            link: '/enforcesecure'
+            link: '/errors/enforcesecure'
           }
         ]
       },
@@ -113,21 +113,21 @@ export default defineConfig({
         text: 'Cloudflare',
         collapsed: false,
         items: [
-		  { text: 'Отключение ECH', link: '/ech' },
-		  { text: 'Перенос домена', link: '/transfer-domain' },
-          { text: 'Привязка домена', link: '/connect-domain' },
-		  { text: 'Подключение онлайн карты к домену', link: '/originrules' }
+		  { text: 'Отключение ECH', link: '/cloudflare/ech' },
+		  { text: 'Перенос домена', link: '/cloudflare/transfer-domain' },
+          { text: 'Привязка домена', link: '/cloudflare/connect-domain' },
+		  { text: 'Подключение онлайн карты к домену', link: '/cloudflare/originrules' }
         ]
       },
       {
         text: 'Cборки/Плагины',
         collapsed: false,
         items: [
-          { text: 'Плагины', link: '/plugins' },
-          { text: 'Lost Souls', link: '/lostsouls' },
-          { text: 'Chunky', link: '/chunky' },
-		  { text: 'EnderaBank', link: '/ebank' },
-		  { text: 'EnderaPassport', link: '/epassport' },
+          { text: 'Плагины', link: '/modpacks-plugins/plugins' },
+          { text: 'Lost Souls', link: '/modpacks-plugins/lostsouls' },
+          { text: 'Chunky', link: '/modpacks-plugins/chunky' },
+		  { text: 'EnderaBank', link: '/modpacks-plugins/ebank' },
+		  { text: 'EnderaPassport', link: '/modpacks-plugins/epassport' },
         ]
 	  },
     ],

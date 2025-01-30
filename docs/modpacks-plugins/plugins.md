@@ -20,7 +20,7 @@ import keks from '../.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3><b style="color:lightgreen">$</b> EnderaBank</h3>
-    <a href="/ebank">
+    <a href="/modpacks-plugins/ebank">
         <img src="/bisquit.webp">
     </a>
     <a href="https://black-minecraft.com/resources/enderabank.5300" target="_blank">
@@ -33,7 +33,7 @@ import keks from '../.vitepress/theme/keks.vue'
 
 <div class="flex">
     <h3><b style="color:lightgreen">$</b> EnderaPassport</h3>
-    <a href="/epassport">
+    <a href="/modpacks-plugins/epassport">
         <img src="/bisquit.webp">
     </a>
     <a href="https://black-minecraft.com/resources/enderapassport.4881" target="_blank">

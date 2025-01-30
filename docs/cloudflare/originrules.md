@@ -4,7 +4,7 @@ outline: deep
 
 # Как привязать динамическую карту/прочий веб сервер к домену?
 
-В Cloudflare это можно сделать буквально за пару кликов. [Как перенести домен на Cloudflare?](/docs/cloudflare/transfer-domain.md)
+В Cloudflare это можно сделать буквально за пару кликов. [Как перенести домен на Cloudflare?](/cloudflare/transfer-domain.md)
 
 1. Создаём A запись с IP-адресом вашего сервера и включаем проксирование
 ![](/originrules1.png)

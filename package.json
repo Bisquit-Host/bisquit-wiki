@@ -1,7 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
-    "vitepress": "^2.0.0-alpha.2",
+    "vitepress": "^2.0.0-alpha.5",
     "vitepress-plugin-lightbox": "^1.0.2"
   },
   "scripts": {

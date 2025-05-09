@@ -77,6 +77,7 @@ export default defineConfig({
         collapsed: false,
         items: [
 		  { text: 'server.properties', link: '/server-configuration/server-properties' },
+		  { text: 'Установка ресурспака', link: '/server-configuration/install-rp' },
 		  { text: 'Загрузка своего мира', link: '/server-configuration/upload-world' },
 		  { text: 'Как подключиться через FileZilla', link: '/server-configuration/filezilla' },
 		  { text: 'Ядра', link: '/server-configuration/serverjars' },

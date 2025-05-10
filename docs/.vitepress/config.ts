@@ -125,6 +125,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Плагины', link: '/modpacks-plugins/plugins' },
+          { text: 'SimpleVoiceChat', link: '/modpacks-plugins/simplevoicechat' },
           { text: 'Lost Souls', link: '/modpacks-plugins/lostsouls' },
           { text: 'Chunky', link: '/modpacks-plugins/chunky' },
 		  { text: 'EnderaBank', link: '/modpacks-plugins/ebank' },

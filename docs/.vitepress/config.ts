@@ -125,6 +125,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Плагины', link: '/modpacks-plugins/plugins' },
+		  { text: 'Датапаки', link: '/modpacks-plugins/datapacks' },
 		  { text: 'Spark', link: '/modpacks-plugins/spark' },
           { text: 'SimpleVoiceChat', link: '/modpacks-plugins/simplevoicechat' },
           { text: 'Lost Souls', link: '/modpacks-plugins/lostsouls' },

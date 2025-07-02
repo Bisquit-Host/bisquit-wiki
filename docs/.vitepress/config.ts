@@ -81,7 +81,8 @@ export default defineConfig({
 		  { text: 'Загрузка своего мира', link: '/server-configuration/upload-world' },
 		  { text: 'Как подключиться через FileZilla', link: '/server-configuration/filezilla' },
 		  { text: 'Ядра', link: '/server-configuration/serverjars' },
-		  { text: 'Установка ядра', link: '/server-configuration/installcore' }
+		  { text: 'Установка ядра', link: '/server-configuration/installcore' },
+		  { text: 'Базовая оптимизация', link: '/server-configuration/basic-optimization' }
         ]
       },
       {
@@ -127,6 +128,7 @@ export default defineConfig({
           { text: 'Плагины', link: '/modpacks-plugins/plugins' },
 		  { text: 'Датапаки', link: '/modpacks-plugins/datapacks' },
 		  { text: 'Spark', link: '/modpacks-plugins/spark' },
+		  { text: 'PlasmoVoice', link: '/modpacks-plugins/plasmovoice' },
           { text: 'SimpleVoiceChat', link: '/modpacks-plugins/simplevoicechat' },
           { text: 'Lost Souls', link: '/modpacks-plugins/lostsouls' },
           { text: 'Chunky', link: '/modpacks-plugins/chunky' },

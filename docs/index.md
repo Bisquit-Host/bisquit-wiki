@@ -7,7 +7,7 @@ hero:
   text: "Ваш путеводитель в мире хостинга"
   tagline: Полная база знаний для эффективного управления вашим сервером на Bisquit.Host
   image:
-    src: /512.webp
+    src: /pyzhilla.webp
     alt: Bisquit.Host
   actions:
     - theme: brand

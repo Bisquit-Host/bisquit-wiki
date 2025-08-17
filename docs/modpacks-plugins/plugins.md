@@ -61,11 +61,11 @@
 </PluginCard>
 
 <PluginCard 
-  name="FastMotd" 
+  name="FastMOTD" 
   modrinthLink="https://modrinth.com/plugin/fastmotd/versions" 
   githubLink="https://github.com/Elytrium/FastMOTD/releases"
->~~~~
-  Плагин на Motd, заточенный на уменьшение нагрузки при атаке пингами
+>
+  Плагин на MOTD, заточенный на уменьшение нагрузки при атаке пингами
 </PluginCard>
 
 ## Прочее
@@ -114,7 +114,7 @@
   modrinthLink="https://modrinth.com/plugin/discordsrv/versions" 
   githubLink="https://github.com/DiscordSRV/DiscordSRV/releases"
 >
-  Привязка Mincecraft сервера к Discord<br>
+  Привязка Minecraft-сервера к Discord<br>
   1. Связка чата Minecraft и Discord | Когда человек отправляет в чат (Minecraft) сообщение - оно показывается в Discord-канале, и наоборот<br>
   2. Мини-консоль | В определенном канале будут отображаться все логи из консоли (очень удобно, но не безопасно)<br>
   3. Кастомные команды, используя Minecraft плейсхолдеры<br>

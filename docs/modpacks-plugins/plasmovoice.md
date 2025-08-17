@@ -4,7 +4,7 @@ title: Установка PlasmoVoice на сервер
 
 # Установка PlasmoVoice на сервер
 
-PlasmoVoice добавляет удобный голосовой чат на ваш майнкрафт сервер
+PlasmoVoice добавляет удобный голосовой чат на ваш Minecraft сервер
 
 ## 1. Загрузка PlasmoVoice
 

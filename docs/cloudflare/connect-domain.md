@@ -29,7 +29,7 @@ outline: deep
 :::
   
 5. Создайте новую SRV-запись
-     - В строке Name впишите _minecraft._tcp.(поддомен который вы хотите)
+     - В строке Name впишите _minecraft._tcp.(поддомен, который вы хотите)
      - TTL - без изменений
      - В Priority и Weight впишите 5
      - Port - порт вашего сервера
@@ -37,6 +37,6 @@ outline: deep
 
   ![srv-record](/srv-record.webp)
 
-6. Согласено примеру сервер будет доступен по адресу join.bisquitmc.net
+6. Согласно примеру, сервер будет доступен по адресу join.bisquitmc.net
 
 7. Готово!

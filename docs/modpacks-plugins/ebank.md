@@ -291,7 +291,7 @@ messages:
   subuser-removed: "{prefix} <red>Пользователь {nickname} был успешно удален из совладельцев счёта #{account}"
   comission-taken: "{prefix} С вас удержана комиссия в размере {amount}{currency_name}"
   warn-created: "{prefix} Вы успешно выдали предупреждение #{number} игроку {player}"
-  warn-received: "{prefix} Вам выстален штраф #{number} игроком {player} на сумму {amount}{currency_name} по причине: {description}"
+  warn-received: "{prefix} Вам выставлен штраф #{number} игроком {player} на сумму {amount}{currency_name} по причине: {description}"
   warn-deleted: "{prefix} Штраф #{number} успешно снят"
   warn-paid: "{prefix} Вы успешно оплатили штраф #{number}"
   true: "<green>Да"
@@ -299,7 +299,7 @@ messages:
   error-messages:
     no-command: "{prefix} <red>Такой команды не существует"
     minimal-amount: "{prefix} <red>Минимальная сумма для перевода 1{currency_name}"
-    no-permission: "{prefix} <red>У вас нет разрешения для этой команды"
+    no-permission: "{prefix} <red>У вас нет разрешения для этой команды"
     no-design: "{prefix} <red>Вы должны указать дизайн карты"
     invalid-design: "{prefix} <red>Такой дизайн карты не существует"
     cards-limit-reached: "{prefix} <red>Вы достигли максимального количества карт"

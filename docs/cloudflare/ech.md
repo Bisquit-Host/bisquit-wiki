@@ -42,7 +42,7 @@ sidebar: auto
 curl -X PATCH "https://api.cloudflare.com/client/v4/zones/{ID_ZONE}/settings/ech" \
      -H "X-Auth-Email: {ACCOUNT_EMAIL}" \
      -H "X-Auth-Key: {GLOBAL_API_KEY}" \
-     -H "Content-Type:application/json" --data '{"id":"ech","value":"off"}'
+     -H "Content-Type: application/json" --data '{"id":"ech","value":"off"}'
 ```
 
 ### Использование Postman

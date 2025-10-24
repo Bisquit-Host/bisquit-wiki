@@ -39,8 +39,8 @@ jobs:
             .
 
           # helper files
-          sha256sum "docs-${VERSION}.tar.gz" > "docs.sha256"
-          tar -tzf "docs-${VERSION}.tar.gz" | sort > "docs-manifest.txt"
+          sha256sum "docs.tar.gz" > "docs.sha256"
+          tar -tzf "docs.tar.gz" | sort > "docs-manifest.txt"
 
       - name: Create GitHub Release with archive
         env:

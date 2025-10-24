@@ -21,23 +21,24 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Build tarball (exclude index.md and .vitepress)
+      - name: Build tarball (exclude index.md, .vitepress, public) without leading "."
         run: |
           set -euo pipefail
           VERSION="$(date -u +'%Y%m%d-%H%M')-${GITHUB_SHA::7}"
           echo "VERSION=$VERSION" >> "$GITHUB_ENV"
 
-          # собираем архив из *содержимого* каталога docs/ (без верхнего "."),
-          # исключая index.md и .vitepress/**
-          cd docs
-          find . -mindepth 1 -maxdepth 1 \
-            ! -name 'index.md' \
-            ! -path './.vitepress' \
-            ! -path './.vitepress/*' -print0 \
-          | tar -czf "../docs-${VERSION}.tar.gz" --null -T -
-          cd - >/dev/null
+          # Create archive from docs/, exclude unwanted paths, and strip the "./" prefix in entries
+          tar -C docs \
+            --exclude='index.md' \
+            --exclude='.vitepress' \
+            --exclude='.vitepress/*' \
+            --exclude='public' \
+            --exclude='public/*' \
+            --transform='s,^\./,,' \
+            -czf "docs-${VERSION}.tar.gz" \
+            .
 
-          # удобные вспомогательные файлы
+          # helper files
           sha256sum "docs-${VERSION}.tar.gz" > "docs-${VERSION}.sha256"
           tar -tzf "docs-${VERSION}.tar.gz" | sort > "docs-${VERSION}-manifest.txt"
 

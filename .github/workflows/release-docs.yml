@@ -35,12 +35,12 @@ jobs:
             --exclude='public' \
             --exclude='public/*' \
             --transform='s,^\./,,' \
-            -czf "docs-${VERSION}.tar.gz" \
+            -czf "docs.tar.gz" \
             .
 
           # helper files
-          sha256sum "docs-${VERSION}.tar.gz" > "docs-${VERSION}.sha256"
-          tar -tzf "docs-${VERSION}.tar.gz" | sort > "docs-${VERSION}-manifest.txt"
+          sha256sum "docs-${VERSION}.tar.gz" > "docs.sha256"
+          tar -tzf "docs-${VERSION}.tar.gz" | sort > "docs-manifest.txt"
 
       - name: Create GitHub Release with archive
         env:
@@ -49,6 +49,6 @@ jobs:
           gh release create "docs-${VERSION}" \
             --title "Docs ${VERSION}" \
             --notes "Auto-generated from $GITHUB_SHA" \
-            "docs-${VERSION}.tar.gz" \
-            "docs-${VERSION}.sha256" \
-            "docs-${VERSION}-manifest.txt"
+            "docs.tar.gz" \
+            "docs.sha256" \
+            "docs-manifest.txt"

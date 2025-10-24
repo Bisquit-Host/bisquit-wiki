@@ -1,0 +1,51 @@
+name: Release docs bundle
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/**'
+      - '!docs/index.md'
+      - '!docs/.vitepress/**'
+
+permissions:
+  contents: write
+
+jobs:
+  pack-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build tarball (exclude index.md and .vitepress)
+        run: |
+          set -euo pipefail
+          VERSION="$(date -u +'%Y%m%d-%H%M')-${GITHUB_SHA::7}"
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+
+          # собираем архив из каталога docs/, исключая index.md и .vitepress/**
+          cd docs
+          tar -czf "../docs-${VERSION}.tar.gz" \
+            --exclude='index.md' \
+            --exclude='.vitepress' \
+            --exclude='.vitepress/*' \
+            .
+
+          cd - >/dev/null
+          # удобные вспомогательные файлы
+          sha256sum "docs-${VERSION}.tar.gz" > "docs-${VERSION}.sha256"
+          tar -tzf "docs-${VERSION}.tar.gz" | sort > "docs-${VERSION}-manifest.txt"
+
+      - name: Create GitHub Release with archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "docs-${VERSION}" \
+            --title "Docs ${VERSION}" \
+            --notes "Auto-generated from $GITHUB_SHA" \
+            "docs-${VERSION}.tar.gz" \
+            "docs-${VERSION}.sha256" \
+            "docs-${VERSION}-manifest.txt"

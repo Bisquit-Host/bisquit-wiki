@@ -131,6 +131,7 @@ export default defineConfig({
                     {text: 'PlasmoVoice', link: '/modpacks-plugins/plasmovoice'},
                     {text: 'SimpleVoiceChat', link: '/modpacks-plugins/simplevoicechat'},
                     {text: 'Lost Souls', link: '/modpacks-plugins/lostsouls'},
+                    {text: 'KoMaM', link: '/modpacks-plugins/kingdom-of-might-and-magic'},
                     {text: 'Chunky', link: '/modpacks-plugins/chunky'},
                     {text: 'EnderaBank', link: '/modpacks-plugins/ebank'},
                     {text: 'EnderaPassport', link: '/modpacks-plugins/epassport'},

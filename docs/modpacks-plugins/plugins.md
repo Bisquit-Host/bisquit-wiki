@@ -7,7 +7,7 @@
 <PluginCard 
   name="EnderaLib" 
   modrinthLink="https://modrinth.com/plugin/enderalib"
-  githubLink="https://github.com/Endera-Org/EnderaLib"
+  githubLink="https://github.com/Endera-Org/EnderaLib/releases"
 >
   Библиотека, установка которой требуется для работы всех наших плагинов
 </PluginCard>
@@ -33,6 +33,7 @@
 <PluginCard 
   name="EnderaOpenChat" 
   modrinthLink="https://modrinth.com/plugin/enderaopenchat"
+  githubLink="https://github.com/Endera-Org/EnderaOpenChat/releases"
 >
   Простой, стабильный и современный плагин на чат с поддержкой Folia
 </PluginCard>

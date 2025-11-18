@@ -89,28 +89,20 @@
   --docsearch-primary-color: var(--vp-c-brand) !important;
 }
 
-.plugin-card {
-    margin-top: 32px;
-}
-
-.plugin-card__header {
-    display: flex;
+.flex {
+    margin-top: 32px;;
     align-items: center;
     flex-wrap: wrap;
-    gap: 8px;
-}
-
-.plugin-card__links {
     display: flex;
-    align-items: center;
-    gap: 5px;
+    gap: 5px; /* Расстояние между картинками */
+    /*justify-content: center; !* Выравнивание по центру *!*/
 }
 
-.plugin-card__title {
-    margin: 0;
+.flex h3 {
+    margin: 0 3px 0 0;
 }
 
-.plugin-card__icon {
+.flex img {
     width: 32px;
     height: 32px;
     background-color: #383838;

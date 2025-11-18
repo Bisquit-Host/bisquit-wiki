@@ -7,6 +7,7 @@
 <PluginCard 
   name="EnderaLib" 
   modrinthLink="https://modrinth.com/plugin/enderalib"
+  githubLink="https://github.com/Endera-Org/EnderaLib"
 >
   Библиотека, установка которой требуется для работы всех наших плагинов
 </PluginCard>
@@ -39,6 +40,7 @@
 <PluginCard 
   name="AntiCloneTool" 
   modrinthLink="https://modrinth.com/plugin/anticlonetool"
+  bmLink="https://black-minecraft.com/resources/anticlonetool.6605"
 >
   Добавляет возможность защитить карты и шаблоны
 </PluginCard>
@@ -48,6 +50,7 @@
 <PluginCard 
   name="LimboAuth/LimboFilter/LimboApi" 
   githubLink="https://github.com/Elytrium/LimboAuth/releases"
+  modrinthLink="https://modrinth.com/plugin/limboauth"
 >
   Связка из трёх плагинов для защиты от ботов и удобной регистрации игроков
 </PluginCard>

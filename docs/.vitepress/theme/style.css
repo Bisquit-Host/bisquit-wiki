@@ -90,6 +90,7 @@
 }
 
 .flex {
+    --size: 25px;
     margin-top: 32px;;
     align-items: center;
     flex-wrap: wrap;
@@ -103,8 +104,8 @@
 }
 
 .flex img {
-    width: 32px;
-    height: 32px;
+    width: var(--size);
+    height: var(--size);
     background-color: #383838;
     border-radius: 25%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

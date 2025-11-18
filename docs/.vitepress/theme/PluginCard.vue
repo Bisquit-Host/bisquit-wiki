@@ -29,8 +29,8 @@ defineProps({
 
 <template>
   <div class="flex">
-    <h3>
-      <b v-if="isPremium" style="color:lightgreen">$</b> {{ name }}
+    <h3 title="Платный">
+      <b v-if="isPremium" style="color:lightgreen">₽</b> {{ name }}
     </h3>
     <a v-if="bisquitLink" :href="bisquitLink">
       <img src="/bisquit.webp">

@@ -86,7 +86,7 @@
 <PluginCard
   name="LibreLogin"
   githubLink="https://github.com/kyngs/LibreLogin/releases"
-  mdLink="https://modrinth.com/plugin/libre-login"
+  modrinthLink="https://modrinth.com/plugin/libre-login"
 >
 Легковесный и безопасный плагин, созданный специально для Velocity, BungeeCord и его форков.
 Полностью открытый исходный код.

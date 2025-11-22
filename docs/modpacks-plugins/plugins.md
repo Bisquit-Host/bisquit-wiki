@@ -58,7 +58,7 @@
 
 <PluginCard
   name="nLogin"
-  mdLink="https://modrinth.com/plugin/openlogin/versions"
+  modrinthLink="https://modrinth.com/plugin/openlogin/versions"
 >
 Современная и мощная замена AuthMe.
 Главная фишка - поддержка авто-входа для лицензионных аккаунтов (игрокам с лицензией не нужно вводить пароль).

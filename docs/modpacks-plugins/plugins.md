@@ -46,6 +46,25 @@
   Добавляет возможность защитить карты и шаблоны
 </PluginCard>
 
+## Авторизация
+
+<PluginCard
+  name="AuthMe"
+  githubLink="https://github.com/AuthMe/AuthMeReloaded"
+>
+Самый популярный и проверенный временем плагин на регистрацию.
+«Классика», но для современных проектов может показаться устаревшим
+</PluginCard>
+
+<PluginCard
+  name="nLogin"
+  mdLink="https://modrinth.com/plugin/openlogin/versions"
+>
+Современная и мощная замена AuthMe.
+Главная фишка - поддержка авто-входа для лицензионных аккаунтов (игрокам с лицензией не нужно вводить пароль).
+Отлично работает в связке с прокси сервером
+</PluginCard>
+
 ## Velocity
 
 <PluginCard 
@@ -62,6 +81,16 @@
   githubLink="https://github.com/Elytrium/LimboAuth-SocialAddon/releases"
 >
   Аддон для LimboAuth, добавляющий привязку к соц. сетям (Discord, Telegram, VK)
+</PluginCard>
+
+<PluginCard
+  name="LibreLogin"
+  githubLink="https://github.com/kyngs/LibreLogin/releases"
+  mdLink="https://modrinth.com/plugin/libre-login"
+>
+Легковесный и безопасный плагин, созданный специально для Velocity, BungeeCord и его форков.
+Полностью открытый исходный код.
+Идеален для тех, кто хочет сделать авторизацию прямо на прокси с использованием Лимбо (виртуального мира для входа)
 </PluginCard>
 
 <PluginCard 

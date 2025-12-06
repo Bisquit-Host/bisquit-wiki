@@ -73,6 +73,26 @@
   /*--vp-custom-block-tip-border: var(--vp-c-brand);*/
   /*--vp-custom-block-tip-text: var(--vp-c-brand-darker);*/
   /*--vp-custom-block-tip-bg: var(--vp-c-brand-dimm);*/
+    .custom-block.danger {
+        border: 1px solid #c12222 !important;
+        background-color: #331213;
+        border-radius: 13px !important;
+    }
+    .custom-block.tip {
+        border: 1px solid #4647a8 !important;
+        background-color: #151525;
+        border-radius: 13px !important;
+    }
+    .custom-block.info {
+        border: 1px solid #596165 !important;
+        background-color: #212327;
+        border-radius: 13px !important;
+    }
+    .custom-block.warning {
+        border: 1px solid #988233 !important;
+        background-color: #272111;
+        border-radius: 13px !important;
+    }
 }
 
 .dark {

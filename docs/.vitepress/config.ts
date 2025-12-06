@@ -129,6 +129,7 @@ export default defineConfig({
                     {text: 'Датапаки', link: '/modpacks-plugins/datapacks'},
                     {text: 'Spark', link: '/modpacks-plugins/spark'},
                     {text: 'PlasmoVoice', link: '/modpacks-plugins/plasmovoice'},
+                    {text: 'PlasmoVoice на Прокси', link: '/modpacks-plugins/plasmovoice-proxy'},
                     {text: 'SimpleVoiceChat', link: '/modpacks-plugins/simplevoicechat'},
                     {text: 'Lost Souls', link: '/modpacks-plugins/lostsouls'},
                     {text: 'KoMaM', link: '/modpacks-plugins/kingdom-of-might-and-magic'},

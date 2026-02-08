@@ -76,6 +76,7 @@ export default defineConfig({
                 text: 'Настройка Сервера',
                 collapsed: false,
                 items: [
+                    {text: 'Выбор портов', link: '/server-configuration/port-allocation'},
                     {text: 'server.properties', link: '/server-configuration/server-properties'},
                     {text: 'Установка ресурспака', link: '/server-configuration/install-rp'},
                     {text: 'Загрузка своего мира', link: '/server-configuration/upload-world'},

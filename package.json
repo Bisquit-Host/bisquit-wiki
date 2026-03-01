@@ -10,9 +10,9 @@
     "docs:preview": "vitepress preview docs"
   },
   "overrides": {
-    "vite": "npm:rolldown-vite@latest"
+    "vite": "npm:vite@beta"
   },
   "dependencies": {
-    "oxc-minify": "^0.96.0"
+    "oxc-minify": "^0.115.0"
   }
 }

@@ -83,7 +83,8 @@ export default defineConfig({
                     {text: 'Как подключиться через FileZilla', link: '/server-configuration/filezilla'},
                     {text: 'Ядра', link: '/server-configuration/serverjars'},
                     {text: 'Установка ядра', link: '/server-configuration/installcore'},
-                    {text: 'Базовая оптимизация', link: '/server-configuration/basic-optimization'}
+                    {text: 'Базовая оптимизация', link: '/server-configuration/basic-optimization'},
+                    {text: 'Настройка TCP BBR', link: '/server-configuration/bbr'}
                 ]
             },
             {

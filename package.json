@@ -6,7 +6,7 @@
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:build": "vitepress build docs && node scripts/vitepress-clean-urls.mjs",
     "docs:preview": "vitepress preview docs"
   },
   "overrides": {

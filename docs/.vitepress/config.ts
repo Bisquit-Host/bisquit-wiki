@@ -7,6 +7,7 @@ export default defineConfig({
     cleanUrls: true,
     title: "Bisquit Wiki",
     description: "База знаний лучшего хостинга Bisquit.Host",
+    appearance: 'force-dark',
     themeConfig: {
         search: {
             provider: 'local',

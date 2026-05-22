@@ -3,8 +3,8 @@ import DefaultTheme from "vitepress/theme";
 import { onMounted } from "vue";
 import { useData, useRouter } from "vitepress";
 import mediumZoom from "medium-zoom";
-import VPNavBarSearch from "vitepress/dist/client/theme-default/components/VPNavBarSearch.vue";
 import VPImage from "vitepress/dist/client/theme-default/components/VPImage.vue";
+import LocalSearch from "./LocalSearch.vue";
 
 const { Layout } = DefaultTheme;
 const router = useRouter();
@@ -22,6 +22,12 @@ router.onAfterRouteChange = setupMediumZoom;
 
 <template>
   <Layout>
+    <template #nav-bar-content-before>
+      <div class="nav-search">
+        <LocalSearch />
+      </div>
+    </template>
+
     <template #sidebar-nav-before>
       <a href="/" class="sidebar-logo">
         <VPImage v-if="theme.logo" class="logo" :image="theme.logo" />
@@ -29,7 +35,7 @@ router.onAfterRouteChange = setupMediumZoom;
         <span class="brand-text" v-else>{{ site.title }}</span>
       </a>
       <div class="sidebar-search">
-        <VPNavBarSearch />
+        <LocalSearch :global-shortcut="false" />
       </div>
     </template>
   </Layout>
@@ -72,54 +78,42 @@ router.onAfterRouteChange = setupMediumZoom;
   margin: 0 0 28px 0;
 }
 
-.sidebar-search .VPNavBarSearch {
-  flex-grow: 0;
-  padding-left: 0;
-  display: block;
-  width: 100%;
+.nav-search {
+  width: 220px;
+  margin-right: 12px;
+  pointer-events: auto;
 }
 
-.sidebar-search .VPNavBarSearchButton {
-  width: 100%;
-  height: 42px;
-  padding: 10px 14px !important;
-  background-color: #1a1a1a !important;
-  border: 1px solid #3a3a3a !important;
-  border-radius: 10px !important;
-  color: var(--vp-c-text-2) !important;
-  font-size: 14px !important;
-  transition: border-color 0.2s, background-color 0.2s;
-  gap: 10px !important;
-  justify-content: flex-start !important;
+.nav-search .local-search-button {
+  height: 34px;
+  border-radius: 8px;
 }
 
-.sidebar-search .VPNavBarSearchButton:hover {
-  border-color: var(--vp-c-brand-1) !important;
-  background-color: #1f1f1f !important;
+.nav-search .local-search-keys {
+  display: none;
 }
 
-.sidebar-search .VPNavBarSearchButton .text {
-  flex-grow: 1;
-  text-align: left;
-  font-size: 14px !important;
-  color: var(--vp-c-text-2);
+@media (max-width: 767px) {
+  .nav-search {
+    width: 42px;
+    margin-right: 8px;
+  }
+
+  .nav-search .local-search-button {
+    justify-content: center;
+    padding: 8px;
+  }
+
+  .nav-search .local-search-label,
+  .nav-search .local-search-keys {
+    display: none;
+  }
 }
 
-.sidebar-search .VPNavBarSearchButton .keys {
-  padding: 3px 7px !important;
-  background: #262626 !important;
-  border: 1px solid #3a3a3a !important;
-  border-radius: 5px !important;
-}
-
-.sidebar-search .VPNavBarSearchButton .vpi-search {
-  color: var(--vp-c-text-2);
-  font-size: 16px;
-}
-
-/* Hide search from top navbar (now lives in sidebar) */
-.VPNavBar .VPNavBarSearch {
-  display: none !important;
+@media (min-width: 960px) {
+  .VPNavBar.has-sidebar .nav-search {
+    display: none;
+  }
 }
 
 /* Hide the original NavBarTitle (logo) in the top bar — moved into sidebar */

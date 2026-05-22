@@ -9,36 +9,6 @@ export default defineConfig({
     description: "База знаний лучшего хостинга Bisquit.Host",
     appearance: 'force-dark',
     themeConfig: {
-        search: {
-            provider: 'local',
-            options: {
-                locales: {
-                    root: {
-                        translations: {
-                            button: {
-                                buttonText: "Поиск",
-                                buttonAriaLabel: "Поиск"
-                            },
-                            modal: {
-                                displayDetails: 'Отобразить подробный список',
-                                resetButtonTitle: 'Сбросить поиск',
-                                backButtonTitle: 'Закрыть поиск',
-                                noResultsText: 'Нет результатов по запросу',
-                                footer: {
-                                    selectText: 'выбрать',
-                                    selectKeyAriaLabel: 'выбрать',
-                                    navigateText: 'перейти',
-                                    navigateUpKeyAriaLabel: 'стрелка вверх',
-                                    navigateDownKeyAriaLabel: 'стрелка вниз',
-                                    closeText: 'закрыть',
-                                    closeKeyAriaLabel: 'esc'
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
         outline: {
             label: "На этой странице",
         },
